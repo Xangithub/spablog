@@ -1,0 +1,825 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-pCRDtdb3GlUU48h+oRJVA8f0GddrLnU97wB7mHQ7q6c40vMbMMZsFdk0IMhkUFRqw1M/y4EkWxtaKwfeFezOkQ==" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-73f533b7cc08a9d040e601cfd38fa585.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-op6Sm70lXzkDaQ0QMDVsDulZslh/lm3kxMIq2DQLE0g6valRrGo8hzKyUkK1PUrUzvwM2o+bl08Z5ETl+VV6IA==" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-5381fd33d4e356e25ca3a044ef0f48bd.css" />
+  
+  
+  
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>geekbrains-webinar-vue/foundation.min.css at master · fat4lix/geekbrains-webinar-vue</title>
+    <meta name="description" content="GitHub is where people build software. More than 28 million people use GitHub to discover, fork, and contribute to over 85 million projects.">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars3.githubusercontent.com/u/3585188?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="fat4lix/geekbrains-webinar-vue" /><meta property="og:url" content="https://github.com/fat4lix/geekbrains-webinar-vue" /><meta property="og:description" content="Contribute to geekbrains-webinar-vue development by creating an account on GitHub." />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MjQ0MzY0MDgxOjE2NTdmZjMxM2ExYzg3NWRjOTc1MmIxNTc3NjNhMjBlOGY1ZTRhYjQ3NjFhYTk1ZWI5YmY1YWU5M2Y0YTE5OWI=--775723ff2c975f2fd563fad49da7a9972f7d2e63">
+  <meta name="pjax-timeout" content="1000">
+  <link rel="sudo-modal" href="/sessions/sudo_modal">
+  <meta name="request-id" content="D73F:1425:3DD1143:6ED5BDD:5B44D180" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="D73F:1425:3DD1143:6ED5BDD:5B44D180" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="22923001" /><meta name="octolytics-actor-login" content="Xangithub" /><meta name="octolytics-actor-hash" content="0baa321f73d6f57b460cf017bceabf843d96b49dc23ff9c07ffd9ee855d3b9fc" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
+
+
+
+
+<meta class="js-ga-set" name="dimension1" content="Logged In">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="Xangithub">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="ZDg0NzIyNmNhYjUxMDIwOGE4MjEyODcyMzViYjRiODkzNzM2MjdmMGI5ODNhY2JhZDZhNTAzN2FkODQ0NTFhMXx7InJlbW90ZV9hZGRyZXNzIjoiNDYuMjQyLjg3LjExMSIsInJlcXVlc3RfaWQiOiJENzNGOjE0MjU6M0REMTE0Mzo2RUQ1QkREOjVCNDREMTgwIiwidGltZXN0YW1wIjoxNTMxMjM2NzM3LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SEARCH,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="fbfa1d6183f07fc372d95da0529d215edfb79d81">
+
+  <meta http-equiv="x-pjax-version" content="95c196bb5a1b9cb0f74ad8eb83e467f7">
+  
+
+      <link href="https://github.com/fat4lix/geekbrains-webinar-vue/commits/master.atom" rel="alternate" title="Recent Commits to geekbrains-webinar-vue:master" type="application/atom+xml">
+
+  <meta name="description" content="Contribute to geekbrains-webinar-vue development by creating an account on GitHub.">
+  <meta name="go-import" content="github.com/fat4lix/geekbrains-webinar-vue git https://github.com/fat4lix/geekbrains-webinar-vue.git">
+
+  <meta name="octolytics-dimension-user_id" content="3585188" /><meta name="octolytics-dimension-user_login" content="fat4lix" /><meta name="octolytics-dimension-repository_id" content="83158393" /><meta name="octolytics-dimension-repository_nwo" content="fat4lix/geekbrains-webinar-vue" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="83158393" /><meta name="octolytics-dimension-repository_network_root_nwo" content="fat4lix/geekbrains-webinar-vue" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/fat4lix/geekbrains-webinar-vue/blob/master/foundation.min.css" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-in env-production page-blob">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="p-3 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        
+<header class="Header  f5" role="banner">
+  <div class="d-flex flex-justify-between px-3 container-lg">
+    <div class="d-flex flex-justify-between ">
+      <div class="">
+        <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
+  <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+
+      </div>
+
+    </div>
+
+    <div class="HeaderMenu d-flex flex-justify-between flex-auto">
+      <div class="d-flex">
+            <div class="">
+              <div class="header-search scoped-search site-scoped-search js-site-search position-relative js-jump-to"
+  role="search combobox"
+  aria-owns="jump-to-results"
+  aria-label="Search or jump to"
+  aria-haspopup="listbox"
+  aria-expanded="true"
+>
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scope-type="Repository" data-scope-id="83158393" data-scoped-search-url="/fat4lix/geekbrains-webinar-vue/search" data-unscoped-search-url="/search" action="/fat4lix/geekbrains-webinar-vue/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+      <label class="form-control header-search-wrapper header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
+        <input type="text"
+          class="form-control header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+          data-hotkey="s,/"
+          name="q"
+          value=""
+          placeholder="Search or jump to…"
+          data-unscoped-placeholder="Search or jump to…"
+          data-scoped-placeholder="Search or jump to…"
+          autocapitalize="off"
+          aria-autocomplete="list"
+          aria-controls="jump-to-results"
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=B6Y00Q/ngC1Ejd/gmAK/drrkA3u1ETCAiFCzSQcnx1SNhw9oE3Jec6dssHtWPPKu+AjxKAX1HrNW8f4Z2tlyiQ=="
+          spellcheck="false"
+          autocomplete="off"
+          >
+          <input type="hidden" class="js-site-search-type-field" name="type" >
+            <img src="https://assets-cdn.github.com/images/search-shortcut-hint.svg" alt="" class=" mr-2 header-search-key-slash">
+
+            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+              <ul class="d-none js-jump-to-suggestions-template-container">
+                <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item">
+                  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center p-2 jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open" href="">
+                    <div class="jump-to-octicon js-jump-to-octicon mr-2 text-center d-none"></div>
+                    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar" alt="" aria-label="Team" src="" width="28" height="28">
+
+                    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden no-wrap css-truncate css-truncate-target">
+                    </div>
+
+                    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+                      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+                        In this repository
+                      </span>
+                      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+                        All GitHub
+                      </span>
+                      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+                    </div>
+
+                    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+                      Jump to
+                      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+                    </div>
+                  </a>
+                </li>
+                <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-repo-octicon-template" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+                <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-project-octicon-template" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+                <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-search-octicon-template" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+              </ul>
+              <ul class="d-none js-jump-to-no-results-template-container">
+                <li class="d-flex flex-justify-center flex-items-center p-3 f5 d-none">
+                  <span class="text-gray">No suggested jump to results</span>
+                </li>
+              </ul>
+
+              <ul id="jump-to-results" class="js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container" >
+                <li class="d-flex flex-justify-center flex-items-center p-0 f5">
+                  <img src="https://assets-cdn.github.com/images/spinners/octocat-spinner-128.gif" alt="Octocat Spinner Icon" class="m-2" width="28">
+                </li>
+              </ul>
+            </div>
+      </label>
+</form>  </div>
+</div>
+
+            </div>
+
+          <ul class="d-flex pl-2 flex-items-center text-bold list-style-none" role="navigation">
+            <li>
+              <a class="js-selected-navigation-item HeaderNavlink px-2" data-hotkey="g p" data-ga-click="Header, click, Nav menu - item:pulls context:user" aria-label="Pull requests you created" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls" href="/pulls">
+                Pull requests
+</a>            </li>
+            <li>
+              <a class="js-selected-navigation-item HeaderNavlink px-2" data-hotkey="g i" data-ga-click="Header, click, Nav menu - item:issues context:user" aria-label="Issues you created" data-selected-links="/issues /issues/assigned /issues/mentioned /issues" href="/issues">
+                Issues
+</a>            </li>
+              <li>
+                <a class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:marketplace context:user" data-octo-click="marketplace_click" data-octo-dimensions="location:nav_bar" data-selected-links=" /marketplace" href="/marketplace">
+                   Marketplace
+</a>              </li>
+            <li>
+              <a class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                Explore
+</a>            </li>
+          </ul>
+      </div>
+
+      <div class="d-flex">
+        
+<ul class="user-nav d-flex flex-items-center list-style-none" id="user-links">
+  <li class="dropdown">
+    <span class="d-inline-block  px-2">
+      
+    <a aria-label="You have no unread notifications" class="notification-indicator tooltipped tooltipped-s  js-socket-channel js-notification-indicator" data-hotkey="g n" data-ga-click="Header, go to notifications, icon:read" data-channel="notification-changed:22923001" href="/notifications">
+        <span class="mail-status "></span>
+        <svg class="octicon octicon-bell" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.99 11.991v1H0v-1l.73-.58c.769-.769.809-2.547 1.189-4.416.77-3.767 4.077-4.996 4.077-4.996 0-.55.45-1 .999-1 .55 0 1 .45 1 1 0 0 3.387 1.229 4.156 4.996.38 1.879.42 3.657 1.19 4.417l.659.58h-.01zM6.995 15.99c1.11 0 1.999-.89 1.999-1.999H4.996c0 1.11.89 1.999 1.999 1.999z"/></svg>
+</a>
+    </span>
+  </li>
+
+  <li class="dropdown">
+    <details class="details-overlay details-reset js-dropdown-details d-flex px-2 flex-items-center">
+      <summary class="HeaderNavlink"
+         aria-label="Create new…"
+         data-ga-click="Header, create new, icon:add">
+        <svg class="octicon octicon-plus float-left mr-1 mt-1" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5v2z"/></svg>
+        <span class="dropdown-caret mt-1"></span>
+      </summary>
+
+      <ul class="dropdown-menu dropdown-menu-sw">
+        
+<a class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
+  New repository
+</a>
+
+  <a class="dropdown-item" href="/new/import" data-ga-click="Header, import a repository">
+    Import repository
+  </a>
+
+<a class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, create new gist">
+  New gist
+</a>
+
+  <a class="dropdown-item" href="/organizations/new" data-ga-click="Header, create new organization">
+    New organization
+  </a>
+
+
+
+  <div class="dropdown-divider"></div>
+  <div class="dropdown-header">
+    <span title="fat4lix/geekbrains-webinar-vue">This repository</span>
+  </div>
+    <a class="dropdown-item" href="/fat4lix/geekbrains-webinar-vue/issues/new" data-ga-click="Header, create new issue">
+      New issue
+    </a>
+
+      </ul>
+    </details>
+  </li>
+
+  <li class="dropdown">
+
+    <details class="details-overlay details-reset js-dropdown-details d-flex pl-2 flex-items-center">
+      <summary class="HeaderNavlink name mt-1"
+        aria-label="View profile and more"
+        data-ga-click="Header, show menu, icon:avatar">
+        <img alt="@Xangithub" class="avatar float-left mr-1" src="https://avatars3.githubusercontent.com/u/22923001?s=40&amp;v=4" height="20" width="20">
+        <span class="dropdown-caret"></span>
+      </summary>
+
+      <ul class="dropdown-menu dropdown-menu-sw">
+        <li class="dropdown-header header-nav-current-user css-truncate">
+          Signed in as <strong class="css-truncate-target">Xangithub</strong>
+        </li>
+
+        <li class="dropdown-divider"></li>
+
+        <li><a class="dropdown-item" href="/Xangithub" data-ga-click="Header, go to profile, text:your profile">
+          Your profile
+        </a></li>
+        <li><a class="dropdown-item" href="/Xangithub?tab=stars" data-ga-click="Header, go to starred repos, text:your stars">
+          Your stars
+        </a></li>
+          <li><a class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, your gists, text:your gists">Your gists</a></li>
+
+        <li class="dropdown-divider"></li>
+
+        <li><a class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">
+          Help
+        </a></li>
+
+        <li><a class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">
+          Settings
+        </a></li>
+
+        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Qaar0O+8q0vAt3WS+RIYIUyFgW3OGlH5wsv212O6HuIx/rDOQ4QdqNpiP8Ultz0IA+31D6Xr3leCWYxyr7dvDw==" />
+          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+            Sign out
+          </button>
+        </form></li>
+      </ul>
+    </details>
+  </li>
+</ul>
+
+
+
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="AxUgp7hf0BUikIk+A//TZNNiVYKUwXhllIsiI/H0JDdzTTu5FGdm9jhFw2nfWvZNnAoh4P8w98vUGViGPflV2g==" />
+          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+            Sign out
+          </button>
+</form>      </div>
+    </div>
+  </div>
+</header>
+
+      
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-autosubmit="true" data-remote="true" class="js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="8Imff0590JPU7PVMHWw1Yof651QV/W4F1j6Xl3lGjuq+C62WaEnzIbzyyRWF4sFsLpUQznEuq3l1TZkjaGQnsw==" />      <input type="hidden" name="repository_id" id="repository_id" value="83158393" class="form-control" />
+
+        <div class="select-menu js-menu-container js-select-menu">
+          <a href="/fat4lix/geekbrains-webinar-vue/subscription"
+            class="btn btn-sm btn-with-count select-menu-button js-menu-target"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-label="Toggle repository notifications menu"
+            data-ga-click="Repository, click Watch settings, action:blob#show">
+            <span class="js-select-button">
+                <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                Watch
+            </span>
+          </a>
+          <a class="social-count js-social-count"
+            href="/fat4lix/geekbrains-webinar-vue/watchers"
+            aria-label="1 user is watching this repository">
+            1
+          </a>
+
+        <div class="select-menu-modal-holder">
+          <div class="select-menu-modal subscription-menu-modal js-menu-content">
+            <div class="select-menu-header js-navigation-enable" tabindex="-1">
+              <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+              <span class="select-menu-title">Notifications</span>
+            </div>
+
+              <div class="select-menu-list js-navigation-container" role="menu">
+
+                <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+                  <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                  <div class="select-menu-item-text">
+                    <input type="radio" name="do" id="do_included" value="included" checked="checked" />
+                    <span class="select-menu-item-heading">Not watching</span>
+                    <span class="description">Be notified when participating or @mentioned.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                      Watch
+                    </span>
+                  </div>
+                </div>
+
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                  <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                  <div class="select-menu-item-text">
+                    <input type="radio" name="do" id="do_subscribed" value="subscribed" />
+                    <span class="select-menu-item-heading">Watching</span>
+                    <span class="description">Be notified of all conversations.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                        Unwatch
+                    </span>
+                  </div>
+                </div>
+
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                  <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                  <div class="select-menu-item-text">
+                    <input type="radio" name="do" id="do_ignore" value="ignore" />
+                    <span class="select-menu-item-heading">Ignoring</span>
+                    <span class="description">Never be notified.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg class="octicon octicon-mute" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 2.81v10.38c0 .67-.81 1-1.28.53L3 10H1c-.55 0-1-.45-1-1V7c0-.55.45-1 1-1h2l3.72-3.72C7.19 1.81 8 2.14 8 2.81zm7.53 3.22l-1.06-1.06-1.97 1.97-1.97-1.97-1.06 1.06L11.44 8 9.47 9.97l1.06 1.06 1.97-1.97 1.97 1.97 1.06-1.06L13.56 8l1.97-1.97z"/></svg>
+                        Stop ignoring
+                    </span>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+</form>
+  </li>
+
+  <li>
+    
+  <div class="js-toggler-container js-social-container starring-container ">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/fat4lix/geekbrains-webinar-vue/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="rwwW46oDZ25O5/ZFxYnBU8fAJyXfjEjU3EgcCtvqOEfwmbb3l2WYw3K2a/9SPNrqLdUxBTVkBQsQq9QNS2lmxQ==" />
+      <input type="hidden" name="context" value="repository"></input>
+      <button
+        type="submit"
+        class="btn btn-sm btn-with-count js-toggler-target"
+        aria-label="Unstar this repository" title="Unstar fat4lix/geekbrains-webinar-vue"
+        data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">
+        <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+        Unstar
+      </button>
+        <a class="social-count js-social-count" href="/fat4lix/geekbrains-webinar-vue/stargazers"
+           aria-label="1 user starred this repository">
+          1
+        </a>
+</form>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/fat4lix/geekbrains-webinar-vue/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="QsEaphgomyjqhyEAEtnwLxQooM0cKtokQwu2R/iT62D4Z470GTeL5oPJUziDxP0e2PVpZcVBmnvk2Ft6tUzr+Q==" />
+      <input type="hidden" name="context" value="repository"></input>
+      <button
+        type="submit"
+        class="btn btn-sm btn-with-count js-toggler-target"
+        aria-label="Star this repository" title="Star fat4lix/geekbrains-webinar-vue"
+        data-ga-click="Repository, click star button, action:blob#show; text:Star">
+        <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+        Star
+      </button>
+        <a class="social-count js-social-count" href="/fat4lix/geekbrains-webinar-vue/stargazers"
+           aria-label="1 user starred this repository">
+          1
+        </a>
+</form>  </div>
+
+  </li>
+
+  <li>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/fat4lix/geekbrains-webinar-vue/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="dAKH+Z4z/R9bR40q2kVNCr2FXDx3bx+uUduU0qwoynGAKqFxTmcVv+DATPmF5C2RG3WBMq+B/0KZTC8kkU7Skw==" />
+            <button
+                type="submit"
+                class="btn btn-sm btn-with-count"
+                data-ga-click="Repository, show fork modal, action:blob#show; text:Fork"
+                title="Fork your own copy of fat4lix/geekbrains-webinar-vue to your account"
+                aria-label="Fork your own copy of fat4lix/geekbrains-webinar-vue to your account">
+              <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+              Fork
+            </button>
+</form>
+    <a href="/fat4lix/geekbrains-webinar-vue/network" class="social-count"
+       aria-label="0 users forked this repository">
+      0
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/fat4lix">fat4lix</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/fat4lix/geekbrains-webinar-vue">geekbrains-webinar-vue</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /fat4lix/geekbrains-webinar-vue" href="/fat4lix/geekbrains-webinar-vue">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /fat4lix/geekbrains-webinar-vue/issues" href="/fat4lix/geekbrains-webinar-vue/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">0</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /fat4lix/geekbrains-webinar-vue/pulls" href="/fat4lix/geekbrains-webinar-vue/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /fat4lix/geekbrains-webinar-vue/projects" href="/fat4lix/geekbrains-webinar-vue/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+    <a class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /fat4lix/geekbrains-webinar-vue/wiki" href="/fat4lix/geekbrains-webinar-vue/wiki">
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      Wiki
+</a>
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /fat4lix/geekbrains-webinar-vue/pulse" href="/fat4lix/geekbrains-webinar-vue/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/fat4lix/geekbrains-webinar-vue/blob/c931cf1a31938e598dfd43065dfa23619a14e3b3/foundation.min.css">Permalink</a>
+
+  <!-- blob contrib key: blob_contributors:v21:3dd1dc86cb851cde64afe1af2aaeb0e1 -->
+
+  
+
+  <div class="file-navigation">
+    
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/fat4lix/geekbrains-webinar-vue/blob/master/foundation.min.css"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    <div class="BtnGroup float-right">
+      <a href="/fat4lix/geekbrains-webinar-vue/find/master"
+            class="js-pjax-capture-input btn btn-sm BtnGroup-item"
+            data-pjax
+            data-hotkey="t">
+        Find file
+      </a>
+      <clipboard-copy for="blob-path" class="btn btn-sm BtnGroup-item">
+        Copy path
+      </clipboard-copy>
+    </div>
+    <div id="blob-path" class="breadcrumb">
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/fat4lix/geekbrains-webinar-vue"><span>geekbrains-webinar-vue</span></a></span></span><span class="separator">/</span><strong class="final-path">foundation.min.css</strong>
+    </div>
+  </div>
+
+
+  <include-fragment src="/fat4lix/geekbrains-webinar-vue/contributors/master/foundation.min.css" class="commit-tease commit-loader">
+    <div>
+      Fetching contributors&hellip;
+    </div>
+
+    <div class="commit-tease-contributors">
+        <img alt="" class="loader-loading float-left" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+      <span class="loader-error">Cannot retrieve contributors at this time</span>
+    </div>
+</include-fragment>
+
+
+  <div class="file">
+    <div class="file-header">
+  <div class="file-actions">
+
+    <div class="BtnGroup">
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/fat4lix/geekbrains-webinar-vue/raw/master/foundation.min.css">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/fat4lix/geekbrains-webinar-vue/blame/master/foundation.min.css">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/fat4lix/geekbrains-webinar-vue/commits/master/foundation.min.css">History</a>
+    </div>
+
+        <a class="btn-octicon tooltipped tooltipped-nw"
+           href="https://desktop.github.com"
+           aria-label="Open this file in GitHub Desktop"
+           data-ga-click="Repository, open with desktop, type:windows">
+            <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
+        </a>
+
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/fat4lix/geekbrains-webinar-vue/edit/master/foundation.min.css" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="S+dosB+ijSfVUJwLSeapTciUcZDS3tl+pTbKy3fa3KueE/B0ca/XNykPSqqG9LKctWyYlqWkDTFiXFZ8+aZTvw==" />
+            <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
+              aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
+              <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
+            </button>
+</form>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/fat4lix/geekbrains-webinar-vue/delete/master/foundation.min.css" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="QrzoGJBd+XAB7ImW9A9yZatnNghe5jaAeiP+uvkLDbT+GxEZheog9yyQSIEXk8hFdlWJqNW9CV+JTbvi5t7klw==" />
+          <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
+            aria-label="Fork this project and delete the file" data-disable-with>
+            <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
+          </button>
+</form>  </div>
+
+  <div class="file-info">
+      2 lines (2 sloc)
+      <span class="file-info-divider"></span>
+    77 KB
+  </div>
+</div>
+
+    
+
+  <div itemprop="text" class="blob-wrapper data type-css">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line">@charset &quot;UTF-8&quot;;</td>
+      </tr>
+      <tr>
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line">/*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}main{display:block}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}input{overflow:visible}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;display:table;max-width:100%;padding:0;color:inherit;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}details{display:block}summary{display:list-item}menu{display:block}canvas{display:inline-block}[hidden],template{display:none}.foundation-mq{font-family:&quot;small=0em&amp;medium=40em&amp;large=64em&amp;xlarge=75em&amp;xxlarge=90em&quot;}html{box-sizing:border-box;font-size:100%}*,:after,:before{box-sizing:inherit}body{margin:0;padding:0;background:#fefefe;font-family:Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;font-weight:400;line-height:1.5;color:#0a0a0a;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}img{display:inline-block;vertical-align:middle;max-width:100%;height:auto;-ms-interpolation-mode:bicubic}textarea{height:auto;min-height:50px;border-radius:0}select{width:100%;border-radius:0}.map_canvas embed,.map_canvas img,.map_canvas object,.mqa-display embed,.mqa-display img,.mqa-display object{max-width:none!important}button{padding:0;-webkit-appearance:none;-moz-appearance:none;appearance:none;border:0;border-radius:0;background:transparent;line-height:1}[data-whatinput=mouse] button{outline:0}.is-visible{display:block!important}.is-hidden{display:none!important}.row{max-width:75rem;margin-right:auto;margin-left:auto}.row:after,.row:before{display:table;content:&quot; &quot;}.row:after{clear:both}.row.collapse&gt;.column,.row.collapse&gt;.columns{padding-right:0;padding-left:0}.row .row{margin-right:-.625rem;margin-left:-.625rem}@media print,screen and (min-width:40em){.row .row{margin-right:-.9375rem;margin-left:-.9375rem}}@media print,screen and (min-width:64em){.row .row{margin-right:-.9375rem;margin-left:-.9375rem}}.row .row.collapse{margin-right:0;margin-left:0}.row.expanded{max-width:none}.row.expanded .row{margin-right:auto;margin-left:auto}.row.gutter-small&gt;.column,.row.gutter-small&gt;.columns{padding-right:.625rem;padding-left:.625rem}.row.gutter-medium&gt;.column,.row.gutter-medium&gt;.columns{padding-right:.9375rem;padding-left:.9375rem}.column,.columns{width:100%;float:left;padding-right:.625rem;padding-left:.625rem}@media print,screen and (min-width:40em){.column,.columns{padding-right:.9375rem;padding-left:.9375rem}}.column:last-child:not(:first-child),.columns:last-child:not(:first-child){float:right}.column.end:last-child:last-child,.end.columns:last-child:last-child{float:left}.column.row.row,.row.row.columns{float:none}.row .column.row.row,.row .row.row.columns{margin-right:0;margin-left:0;padding-right:0;padding-left:0}.small-1{width:8.33333%}.small-push-1{position:relative;left:8.33333%}.small-pull-1{position:relative;left:-8.33333%}.small-offset-0{margin-left:0}.small-2{width:16.66667%}.small-push-2{position:relative;left:16.66667%}.small-pull-2{position:relative;left:-16.66667%}.small-offset-1{margin-left:8.33333%}.small-3{width:25%}.small-push-3{position:relative;left:25%}.small-pull-3{position:relative;left:-25%}.small-offset-2{margin-left:16.66667%}.small-4{width:33.33333%}.small-push-4{position:relative;left:33.33333%}.small-pull-4{position:relative;left:-33.33333%}.small-offset-3{margin-left:25%}.small-5{width:41.66667%}.small-push-5{position:relative;left:41.66667%}.small-pull-5{position:relative;left:-41.66667%}.small-offset-4{margin-left:33.33333%}.small-6{width:50%}.small-push-6{position:relative;left:50%}.small-pull-6{position:relative;left:-50%}.small-offset-5{margin-left:41.66667%}.small-7{width:58.33333%}.small-push-7{position:relative;left:58.33333%}.small-pull-7{position:relative;left:-58.33333%}.small-offset-6{margin-left:50%}.small-8{width:66.66667%}.small-push-8{position:relative;left:66.66667%}.small-pull-8{position:relative;left:-66.66667%}.small-offset-7{margin-left:58.33333%}.small-9{width:75%}.small-push-9{position:relative;left:75%}.small-pull-9{position:relative;left:-75%}.small-offset-8{margin-left:66.66667%}.small-10{width:83.33333%}.small-push-10{position:relative;left:83.33333%}.small-pull-10{position:relative;left:-83.33333%}.small-offset-9{margin-left:75%}.small-11{width:91.66667%}.small-push-11{position:relative;left:91.66667%}.small-pull-11{position:relative;left:-91.66667%}.small-offset-10{margin-left:83.33333%}.small-12{width:100%}.small-offset-11{margin-left:91.66667%}.small-up-1&gt;.column,.small-up-1&gt;.columns{float:left;width:100%}.small-up-1&gt;.column:nth-of-type(1n),.small-up-1&gt;.columns:nth-of-type(1n){clear:none}.small-up-1&gt;.column:nth-of-type(1n+1),.small-up-1&gt;.columns:nth-of-type(1n+1){clear:both}.small-up-1&gt;.column:last-child,.small-up-1&gt;.columns:last-child{float:left}.small-up-2&gt;.column,.small-up-2&gt;.columns{float:left;width:50%}.small-up-2&gt;.column:nth-of-type(1n),.small-up-2&gt;.columns:nth-of-type(1n){clear:none}.small-up-2&gt;.column:nth-of-type(2n+1),.small-up-2&gt;.columns:nth-of-type(2n+1){clear:both}.small-up-2&gt;.column:last-child,.small-up-2&gt;.columns:last-child{float:left}.small-up-3&gt;.column,.small-up-3&gt;.columns{float:left;width:33.33333%}.small-up-3&gt;.column:nth-of-type(1n),.small-up-3&gt;.columns:nth-of-type(1n){clear:none}.small-up-3&gt;.column:nth-of-type(3n+1),.small-up-3&gt;.columns:nth-of-type(3n+1){clear:both}.small-up-3&gt;.column:last-child,.small-up-3&gt;.columns:last-child{float:left}.small-up-4&gt;.column,.small-up-4&gt;.columns{float:left;width:25%}.small-up-4&gt;.column:nth-of-type(1n),.small-up-4&gt;.columns:nth-of-type(1n){clear:none}.small-up-4&gt;.column:nth-of-type(4n+1),.small-up-4&gt;.columns:nth-of-type(4n+1){clear:both}.small-up-4&gt;.column:last-child,.small-up-4&gt;.columns:last-child{float:left}.small-up-5&gt;.column,.small-up-5&gt;.columns{float:left;width:20%}.small-up-5&gt;.column:nth-of-type(1n),.small-up-5&gt;.columns:nth-of-type(1n){clear:none}.small-up-5&gt;.column:nth-of-type(5n+1),.small-up-5&gt;.columns:nth-of-type(5n+1){clear:both}.small-up-5&gt;.column:last-child,.small-up-5&gt;.columns:last-child{float:left}.small-up-6&gt;.column,.small-up-6&gt;.columns{float:left;width:16.66667%}.small-up-6&gt;.column:nth-of-type(1n),.small-up-6&gt;.columns:nth-of-type(1n){clear:none}.small-up-6&gt;.column:nth-of-type(6n+1),.small-up-6&gt;.columns:nth-of-type(6n+1){clear:both}.small-up-6&gt;.column:last-child,.small-up-6&gt;.columns:last-child{float:left}.small-up-7&gt;.column,.small-up-7&gt;.columns{float:left;width:14.28571%}.small-up-7&gt;.column:nth-of-type(1n),.small-up-7&gt;.columns:nth-of-type(1n){clear:none}.small-up-7&gt;.column:nth-of-type(7n+1),.small-up-7&gt;.columns:nth-of-type(7n+1){clear:both}.small-up-7&gt;.column:last-child,.small-up-7&gt;.columns:last-child{float:left}.small-up-8&gt;.column,.small-up-8&gt;.columns{float:left;width:12.5%}.small-up-8&gt;.column:nth-of-type(1n),.small-up-8&gt;.columns:nth-of-type(1n){clear:none}.small-up-8&gt;.column:nth-of-type(8n+1),.small-up-8&gt;.columns:nth-of-type(8n+1){clear:both}.small-up-8&gt;.column:last-child,.small-up-8&gt;.columns:last-child{float:left}.small-collapse&gt;.column,.small-collapse&gt;.columns{padding-right:0;padding-left:0}.expanded.row .small-collapse.row,.small-collapse .row{margin-right:0;margin-left:0}.small-uncollapse&gt;.column,.small-uncollapse&gt;.columns{padding-right:.625rem;padding-left:.625rem}.small-centered{margin-right:auto;margin-left:auto}.small-centered,.small-centered:last-child:not(:first-child){float:none;clear:both}.small-pull-0,.small-push-0,.small-uncentered{position:static;float:left;margin-right:0;margin-left:0}@media print,screen and (min-width:40em){.medium-1{width:8.33333%}.medium-push-1{position:relative;left:8.33333%}.medium-pull-1{position:relative;left:-8.33333%}.medium-offset-0{margin-left:0}.medium-2{width:16.66667%}.medium-push-2{position:relative;left:16.66667%}.medium-pull-2{position:relative;left:-16.66667%}.medium-offset-1{margin-left:8.33333%}.medium-3{width:25%}.medium-push-3{position:relative;left:25%}.medium-pull-3{position:relative;left:-25%}.medium-offset-2{margin-left:16.66667%}.medium-4{width:33.33333%}.medium-push-4{position:relative;left:33.33333%}.medium-pull-4{position:relative;left:-33.33333%}.medium-offset-3{margin-left:25%}.medium-5{width:41.66667%}.medium-push-5{position:relative;left:41.66667%}.medium-pull-5{position:relative;left:-41.66667%}.medium-offset-4{margin-left:33.33333%}.medium-6{width:50%}.medium-push-6{position:relative;left:50%}.medium-pull-6{position:relative;left:-50%}.medium-offset-5{margin-left:41.66667%}.medium-7{width:58.33333%}.medium-push-7{position:relative;left:58.33333%}.medium-pull-7{position:relative;left:-58.33333%}.medium-offset-6{margin-left:50%}.medium-8{width:66.66667%}.medium-push-8{position:relative;left:66.66667%}.medium-pull-8{position:relative;left:-66.66667%}.medium-offset-7{margin-left:58.33333%}.medium-9{width:75%}.medium-push-9{position:relative;left:75%}.medium-pull-9{position:relative;left:-75%}.medium-offset-8{margin-left:66.66667%}.medium-10{width:83.33333%}.medium-push-10{position:relative;left:83.33333%}.medium-pull-10{position:relative;left:-83.33333%}.medium-offset-9{margin-left:75%}.medium-11{width:91.66667%}.medium-push-11{position:relative;left:91.66667%}.medium-pull-11{position:relative;left:-91.66667%}.medium-offset-10{margin-left:83.33333%}.medium-12{width:100%}.medium-offset-11{margin-left:91.66667%}.medium-up-1&gt;.column,.medium-up-1&gt;.columns{float:left;width:100%}.medium-up-1&gt;.column:nth-of-type(1n),.medium-up-1&gt;.columns:nth-of-type(1n){clear:none}.medium-up-1&gt;.column:nth-of-type(1n+1),.medium-up-1&gt;.columns:nth-of-type(1n+1){clear:both}.medium-up-1&gt;.column:last-child,.medium-up-1&gt;.columns:last-child{float:left}.medium-up-2&gt;.column,.medium-up-2&gt;.columns{float:left;width:50%}.medium-up-2&gt;.column:nth-of-type(1n),.medium-up-2&gt;.columns:nth-of-type(1n){clear:none}.medium-up-2&gt;.column:nth-of-type(2n+1),.medium-up-2&gt;.columns:nth-of-type(2n+1){clear:both}.medium-up-2&gt;.column:last-child,.medium-up-2&gt;.columns:last-child{float:left}.medium-up-3&gt;.column,.medium-up-3&gt;.columns{float:left;width:33.33333%}.medium-up-3&gt;.column:nth-of-type(1n),.medium-up-3&gt;.columns:nth-of-type(1n){clear:none}.medium-up-3&gt;.column:nth-of-type(3n+1),.medium-up-3&gt;.columns:nth-of-type(3n+1){clear:both}.medium-up-3&gt;.column:last-child,.medium-up-3&gt;.columns:last-child{float:left}.medium-up-4&gt;.column,.medium-up-4&gt;.columns{float:left;width:25%}.medium-up-4&gt;.column:nth-of-type(1n),.medium-up-4&gt;.columns:nth-of-type(1n){clear:none}.medium-up-4&gt;.column:nth-of-type(4n+1),.medium-up-4&gt;.columns:nth-of-type(4n+1){clear:both}.medium-up-4&gt;.column:last-child,.medium-up-4&gt;.columns:last-child{float:left}.medium-up-5&gt;.column,.medium-up-5&gt;.columns{float:left;width:20%}.medium-up-5&gt;.column:nth-of-type(1n),.medium-up-5&gt;.columns:nth-of-type(1n){clear:none}.medium-up-5&gt;.column:nth-of-type(5n+1),.medium-up-5&gt;.columns:nth-of-type(5n+1){clear:both}.medium-up-5&gt;.column:last-child,.medium-up-5&gt;.columns:last-child{float:left}.medium-up-6&gt;.column,.medium-up-6&gt;.columns{float:left;width:16.66667%}.medium-up-6&gt;.column:nth-of-type(1n),.medium-up-6&gt;.columns:nth-of-type(1n){clear:none}.medium-up-6&gt;.column:nth-of-type(6n+1),.medium-up-6&gt;.columns:nth-of-type(6n+1){clear:both}.medium-up-6&gt;.column:last-child,.medium-up-6&gt;.columns:last-child{float:left}.medium-up-7&gt;.column,.medium-up-7&gt;.columns{float:left;width:14.28571%}.medium-up-7&gt;.column:nth-of-type(1n),.medium-up-7&gt;.columns:nth-of-type(1n){clear:none}.medium-up-7&gt;.column:nth-of-type(7n+1),.medium-up-7&gt;.columns:nth-of-type(7n+1){clear:both}.medium-up-7&gt;.column:last-child,.medium-up-7&gt;.columns:last-child{float:left}.medium-up-8&gt;.column,.medium-up-8&gt;.columns{float:left;width:12.5%}.medium-up-8&gt;.column:nth-of-type(1n),.medium-up-8&gt;.columns:nth-of-type(1n){clear:none}.medium-up-8&gt;.column:nth-of-type(8n+1),.medium-up-8&gt;.columns:nth-of-type(8n+1){clear:both}.medium-up-8&gt;.column:last-child,.medium-up-8&gt;.columns:last-child{float:left}.medium-collapse&gt;.column,.medium-collapse&gt;.columns{padding-right:0;padding-left:0}.expanded.row .medium-collapse.row,.medium-collapse .row{margin-right:0;margin-left:0}.medium-uncollapse&gt;.column,.medium-uncollapse&gt;.columns{padding-right:.9375rem;padding-left:.9375rem}.medium-centered{margin-right:auto;margin-left:auto}.medium-centered,.medium-centered:last-child:not(:first-child){float:none;clear:both}.medium-pull-0,.medium-push-0,.medium-uncentered{position:static;float:left;margin-right:0;margin-left:0}}@media print,screen and (min-width:64em){.large-1{width:8.33333%}.large-push-1{position:relative;left:8.33333%}.large-pull-1{position:relative;left:-8.33333%}.large-offset-0{margin-left:0}.large-2{width:16.66667%}.large-push-2{position:relative;left:16.66667%}.large-pull-2{position:relative;left:-16.66667%}.large-offset-1{margin-left:8.33333%}.large-3{width:25%}.large-push-3{position:relative;left:25%}.large-pull-3{position:relative;left:-25%}.large-offset-2{margin-left:16.66667%}.large-4{width:33.33333%}.large-push-4{position:relative;left:33.33333%}.large-pull-4{position:relative;left:-33.33333%}.large-offset-3{margin-left:25%}.large-5{width:41.66667%}.large-push-5{position:relative;left:41.66667%}.large-pull-5{position:relative;left:-41.66667%}.large-offset-4{margin-left:33.33333%}.large-6{width:50%}.large-push-6{position:relative;left:50%}.large-pull-6{position:relative;left:-50%}.large-offset-5{margin-left:41.66667%}.large-7{width:58.33333%}.large-push-7{position:relative;left:58.33333%}.large-pull-7{position:relative;left:-58.33333%}.large-offset-6{margin-left:50%}.large-8{width:66.66667%}.large-push-8{position:relative;left:66.66667%}.large-pull-8{position:relative;left:-66.66667%}.large-offset-7{margin-left:58.33333%}.large-9{width:75%}.large-push-9{position:relative;left:75%}.large-pull-9{position:relative;left:-75%}.large-offset-8{margin-left:66.66667%}.large-10{width:83.33333%}.large-push-10{position:relative;left:83.33333%}.large-pull-10{position:relative;left:-83.33333%}.large-offset-9{margin-left:75%}.large-11{width:91.66667%}.large-push-11{position:relative;left:91.66667%}.large-pull-11{position:relative;left:-91.66667%}.large-offset-10{margin-left:83.33333%}.large-12{width:100%}.large-offset-11{margin-left:91.66667%}.large-up-1&gt;.column,.large-up-1&gt;.columns{float:left;width:100%}.large-up-1&gt;.column:nth-of-type(1n),.large-up-1&gt;.columns:nth-of-type(1n){clear:none}.large-up-1&gt;.column:nth-of-type(1n+1),.large-up-1&gt;.columns:nth-of-type(1n+1){clear:both}.large-up-1&gt;.column:last-child,.large-up-1&gt;.columns:last-child{float:left}.large-up-2&gt;.column,.large-up-2&gt;.columns{float:left;width:50%}.large-up-2&gt;.column:nth-of-type(1n),.large-up-2&gt;.columns:nth-of-type(1n){clear:none}.large-up-2&gt;.column:nth-of-type(2n+1),.large-up-2&gt;.columns:nth-of-type(2n+1){clear:both}.large-up-2&gt;.column:last-child,.large-up-2&gt;.columns:last-child{float:left}.large-up-3&gt;.column,.large-up-3&gt;.columns{float:left;width:33.33333%}.large-up-3&gt;.column:nth-of-type(1n),.large-up-3&gt;.columns:nth-of-type(1n){clear:none}.large-up-3&gt;.column:nth-of-type(3n+1),.large-up-3&gt;.columns:nth-of-type(3n+1){clear:both}.large-up-3&gt;.column:last-child,.large-up-3&gt;.columns:last-child{float:left}.large-up-4&gt;.column,.large-up-4&gt;.columns{float:left;width:25%}.large-up-4&gt;.column:nth-of-type(1n),.large-up-4&gt;.columns:nth-of-type(1n){clear:none}.large-up-4&gt;.column:nth-of-type(4n+1),.large-up-4&gt;.columns:nth-of-type(4n+1){clear:both}.large-up-4&gt;.column:last-child,.large-up-4&gt;.columns:last-child{float:left}.large-up-5&gt;.column,.large-up-5&gt;.columns{float:left;width:20%}.large-up-5&gt;.column:nth-of-type(1n),.large-up-5&gt;.columns:nth-of-type(1n){clear:none}.large-up-5&gt;.column:nth-of-type(5n+1),.large-up-5&gt;.columns:nth-of-type(5n+1){clear:both}.large-up-5&gt;.column:last-child,.large-up-5&gt;.columns:last-child{float:left}.large-up-6&gt;.column,.large-up-6&gt;.columns{float:left;width:16.66667%}.large-up-6&gt;.column:nth-of-type(1n),.large-up-6&gt;.columns:nth-of-type(1n){clear:none}.large-up-6&gt;.column:nth-of-type(6n+1),.large-up-6&gt;.columns:nth-of-type(6n+1){clear:both}.large-up-6&gt;.column:last-child,.large-up-6&gt;.columns:last-child{float:left}.large-up-7&gt;.column,.large-up-7&gt;.columns{float:left;width:14.28571%}.large-up-7&gt;.column:nth-of-type(1n),.large-up-7&gt;.columns:nth-of-type(1n){clear:none}.large-up-7&gt;.column:nth-of-type(7n+1),.large-up-7&gt;.columns:nth-of-type(7n+1){clear:both}.large-up-7&gt;.column:last-child,.large-up-7&gt;.columns:last-child{float:left}.large-up-8&gt;.column,.large-up-8&gt;.columns{float:left;width:12.5%}.large-up-8&gt;.column:nth-of-type(1n),.large-up-8&gt;.columns:nth-of-type(1n){clear:none}.large-up-8&gt;.column:nth-of-type(8n+1),.large-up-8&gt;.columns:nth-of-type(8n+1){clear:both}.large-up-8&gt;.column:last-child,.large-up-8&gt;.columns:last-child{float:left}.large-collapse&gt;.column,.large-collapse&gt;.columns{padding-right:0;padding-left:0}.expanded.row .large-collapse.row,.large-collapse .row{margin-right:0;margin-left:0}.large-uncollapse&gt;.column,.large-uncollapse&gt;.columns{padding-right:.9375rem;padding-left:.9375rem}.large-centered{margin-right:auto;margin-left:auto}.large-centered,.large-centered:last-child:not(:first-child){float:none;clear:both}.large-pull-0,.large-push-0,.large-uncentered{position:static;float:left;margin-right:0;margin-left:0}}.column-block{margin-bottom:1.25rem}.column-block&gt;:last-child{margin-bottom:0}@media print,screen and (min-width:40em){.column-block{margin-bottom:1.875rem}.column-block&gt;:last-child{margin-bottom:0}}blockquote,dd,div,dl,dt,form,h1,h2,h3,h4,h5,h6,li,ol,p,pre,td,th,ul{margin:0;padding:0}p{margin-bottom:1rem;font-size:inherit;line-height:1.6;text-rendering:optimizeLegibility}em,i{font-style:italic}b,em,i,strong{line-height:inherit}b,strong{font-weight:700}small{font-size:80%;line-height:inherit}h1,h2,h3,h4,h5,h6{font-family:Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;font-style:normal;font-weight:400;color:inherit;text-rendering:optimizeLegibility}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{line-height:0;color:#cacaca}h1{font-size:1.5rem}h1,h2{line-height:1.4;margin-top:0;margin-bottom:.5rem}h2{font-size:1.25rem}h3{font-size:1.1875rem}h3,h4{line-height:1.4;margin-top:0;margin-bottom:.5rem}h4{font-size:1.125rem}h5{font-size:1.0625rem}h5,h6{line-height:1.4;margin-top:0;margin-bottom:.5rem}h6{font-size:1rem}@media print,screen and (min-width:40em){h1{font-size:3rem}h2{font-size:2.5rem}h3{font-size:1.9375rem}h4{font-size:1.5625rem}h5{font-size:1.25rem}h6{font-size:1rem}}a{line-height:inherit;color:#1779ba;text-decoration:none;cursor:pointer}a:focus,a:hover{color:#1468a0}a img{border:0}hr{clear:both;max-width:75rem;height:0;margin:1.25rem auto;border-top:0;border-right:0;border-bottom:1px solid #cacaca;border-left:0}dl,ol,ul{margin-bottom:1rem;list-style-position:outside;line-height:1.6}li{font-size:inherit}ul{list-style-type:disc}ol,ul{margin-left:1.25rem}ol ol,ol ul,ul ol,ul ul{margin-left:1.25rem;margin-bottom:0}dl{margin-bottom:1rem}dl dt{margin-bottom:.3rem;font-weight:700}blockquote{margin:0 0 1rem;padding:.5625rem 1.25rem 0 1.1875rem;border-left:1px solid #cacaca}blockquote,blockquote p{line-height:1.6;color:#8a8a8a}cite{display:block;font-size:.8125rem;color:#8a8a8a}cite:before{content:&quot;— &quot;}abbr{border-bottom:1px dotted #0a0a0a;color:#0a0a0a;cursor:help}figure{margin:0}code{padding:.125rem .3125rem .0625rem;border:1px solid #cacaca;font-weight:400}code,kbd{background-color:#e6e6e6;font-family:Consolas,Liberation Mono,Courier,monospace;color:#0a0a0a}kbd{margin:0;padding:.125rem .25rem 0}.subheader{margin-top:.2rem;margin-bottom:.5rem;font-weight:400;line-height:1.4;color:#8a8a8a}.lead{font-size:125%;line-height:1.6}.stat{font-size:2.5rem;line-height:1}p+.stat{margin-top:-1rem}.no-bullet{margin-left:0;list-style:none}.text-left{text-align:left}.text-right{text-align:right}.text-center{text-align:center}.text-justify{text-align:justify}@media print,screen and (min-width:40em){.medium-text-left{text-align:left}.medium-text-right{text-align:right}.medium-text-center{text-align:center}.medium-text-justify{text-align:justify}}@media print,screen and (min-width:64em){.large-text-left{text-align:left}.large-text-right{text-align:right}.large-text-center{text-align:center}.large-text-justify{text-align:justify}}.show-for-print{display:none!important}@media print{*{background:transparent!important;box-shadow:none!important;color:#000!important;text-shadow:none!important}.show-for-print{display:block!important}.hide-for-print{display:none!important}table.show-for-print{display:table!important}thead.show-for-print{display:table-header-group!important}tbody.show-for-print{display:table-row-group!important}tr.show-for-print{display:table-row!important}td.show-for-print,th.show-for-print{display:table-cell!important}a,a:visited{text-decoration:underline}a[href]:after{content:&quot; (&quot; attr(href) &quot;)&quot;}.ir a:after,a[href^=&quot;#&quot;]:after,a[href^=&quot;javascript:&quot;]:after{content:&quot;&quot;}abbr[title]:after{content:&quot; (&quot; attr(title) &quot;)&quot;}blockquote,pre{border:1px solid #8a8a8a;page-break-inside:avoid}thead{display:table-header-group}img,tr{page-break-inside:avoid}img{max-width:100%!important}@page{margin:.5cm}h2,h3,p{orphans:3;widows:3}h2,h3{page-break-after:avoid}}.button{display:inline-block;vertical-align:middle;margin:0 0 1rem;padding:.85em 1em;-webkit-appearance:none;border:1px solid transparent;border-radius:0;transition:background-color .25s ease-out,color .25s ease-out;font-size:.9rem;line-height:1;text-align:center;cursor:pointer;background-color:#1779ba;color:#fefefe}[data-whatinput=mouse] .button{outline:0}.button:focus,.button:hover{background-color:#14679e;color:#fefefe}.button.tiny{font-size:.6rem}.button.small{font-size:.75rem}.button.large{font-size:1.25rem}.button.expanded{display:block;width:100%;margin-right:0;margin-left:0}.button.primary{background-color:#1779ba;color:#fefefe}.button.primary:focus,.button.primary:hover{background-color:#126195;color:#fefefe}.button.secondary{background-color:#767676;color:#fefefe}.button.secondary:focus,.button.secondary:hover{background-color:#5e5e5e;color:#fefefe}.button.success{background-color:#3adb76;color:#0a0a0a}.button.success:focus,.button.success:hover{background-color:#22bb5b;color:#0a0a0a}.button.warning{background-color:#ffae00;color:#0a0a0a}.button.warning:focus,.button.warning:hover{background-color:#cc8b00;color:#0a0a0a}.button.alert{background-color:#cc4b37;color:#fefefe}.button.alert:focus,.button.alert:hover{background-color:#a53b2a;color:#fefefe}.button.hollow{border:1px solid #1779ba;color:#1779ba}.button.hollow,.button.hollow:focus,.button.hollow:hover{background-color:transparent}.button.hollow:focus,.button.hollow:hover{border-color:#0c3d5d;color:#0c3d5d}.button.hollow.primary{border:1px solid #1779ba;color:#1779ba}.button.hollow.primary:focus,.button.hollow.primary:hover{border-color:#0c3d5d;color:#0c3d5d}.button.hollow.secondary{border:1px solid #767676;color:#767676}.button.hollow.secondary:focus,.button.hollow.secondary:hover{border-color:#3b3b3b;color:#3b3b3b}.button.hollow.success{border:1px solid #3adb76;color:#3adb76}.button.hollow.success:focus,.button.hollow.success:hover{border-color:#157539;color:#157539}.button.hollow.warning{border:1px solid #ffae00;color:#ffae00}.button.hollow.warning:focus,.button.hollow.warning:hover{border-color:#805700;color:#805700}.button.hollow.alert{border:1px solid #cc4b37;color:#cc4b37}.button.hollow.alert:focus,.button.hollow.alert:hover{border-color:#67251a;color:#67251a}.button.disabled,.button[disabled]{opacity:.25;cursor:not-allowed}.button.disabled:focus,.button.disabled:hover,.button[disabled]:focus,.button[disabled]:hover{background-color:#1779ba;color:#fefefe}.button.disabled.primary,.button[disabled].primary{opacity:.25;cursor:not-allowed}.button.disabled.primary:focus,.button.disabled.primary:hover,.button[disabled].primary:focus,.button[disabled].primary:hover{background-color:#1779ba;color:#fefefe}.button.disabled.secondary,.button[disabled].secondary{opacity:.25;cursor:not-allowed}.button.disabled.secondary:focus,.button.disabled.secondary:hover,.button[disabled].secondary:focus,.button[disabled].secondary:hover{background-color:#767676;color:#fefefe}.button.disabled.success,.button[disabled].success{opacity:.25;cursor:not-allowed}.button.disabled.success:focus,.button.disabled.success:hover,.button[disabled].success:focus,.button[disabled].success:hover{background-color:#3adb76;color:#fefefe}.button.disabled.warning,.button[disabled].warning{opacity:.25;cursor:not-allowed}.button.disabled.warning:focus,.button.disabled.warning:hover,.button[disabled].warning:focus,.button[disabled].warning:hover{background-color:#ffae00;color:#fefefe}.button.disabled.alert,.button[disabled].alert{opacity:.25;cursor:not-allowed}.button.disabled.alert:focus,.button.disabled.alert:hover,.button[disabled].alert:focus,.button[disabled].alert:hover{background-color:#cc4b37;color:#fefefe}.button.dropdown:after{display:block;width:0;height:0;border:.4em inset;content:&quot;&quot;;border-bottom-width:0;border-top-style:solid;border-color:#fefefe transparent transparent;position:relative;top:.4em;display:inline-block;float:right;margin-left:1em}.button.arrow-only:after{top:-.1em;float:none;margin-left:0}[type=color],[type=date],[type=datetime-local],[type=datetime],[type=email],[type=month],[type=number],[type=password],[type=search],[type=tel],[type=text],[type=time],[type=url],[type=week],textarea{display:block;box-sizing:border-box;width:100%;height:2.4375rem;margin:0 0 1rem;padding:.5rem;border:1px solid #cacaca;border-radius:0;background-color:#fefefe;box-shadow:inset 0 1px 2px hsla(0,0%,4%,.1);font-family:inherit;font-size:1rem;font-weight:400;color:#0a0a0a;transition:box-shadow .5s,border-color .25s ease-in-out;-webkit-appearance:none;-moz-appearance:none;appearance:none}[type=color]:focus,[type=date]:focus,[type=datetime-local]:focus,[type=datetime]:focus,[type=email]:focus,[type=month]:focus,[type=number]:focus,[type=password]:focus,[type=search]:focus,[type=tel]:focus,[type=text]:focus,[type=time]:focus,[type=url]:focus,[type=week]:focus,textarea:focus{outline:none;border:1px solid #8a8a8a;background-color:#fefefe;box-shadow:0 0 5px #cacaca;transition:box-shadow .5s,border-color .25s ease-in-out}textarea{max-width:100%}textarea[rows]{height:auto}input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#cacaca}input::-moz-placeholder,textarea::-moz-placeholder{color:#cacaca}input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#cacaca}input::placeholder,textarea::placeholder{color:#cacaca}input:disabled,input[readonly],textarea:disabled,textarea[readonly]{background-color:#e6e6e6;cursor:not-allowed}[type=button],[type=submit]{-webkit-appearance:none;-moz-appearance:none;appearance:none;border-radius:0}input[type=search]{box-sizing:border-box}[type=checkbox],[type=file],[type=radio]{margin:0 0 1rem}[type=checkbox]+label,[type=radio]+label{display:inline-block;vertical-align:baseline;margin-left:.5rem;margin-right:1rem;margin-bottom:0}[type=checkbox]+label[for],[type=radio]+label[for]{cursor:pointer}label&gt;[type=checkbox],label&gt;[type=radio]{margin-right:.5rem}[type=file]{width:100%}label{display:block;margin:0;font-size:.875rem;font-weight:400;line-height:1.8;color:#0a0a0a}label.middle{margin:0 0 1rem;padding:.5625rem 0}.help-text{margin-top:-.5rem;font-size:.8125rem;font-style:italic;color:#0a0a0a}.input-group{display:table;width:100%;margin-bottom:1rem}.input-group&gt;:first-child,.input-group&gt;:last-child&gt;*{border-radius:0 0 0 0}.input-group-button,.input-group-button a,.input-group-button button,.input-group-button input,.input-group-button label,.input-group-field,.input-group-label{margin:0;white-space:nowrap;display:table-cell;vertical-align:middle}.input-group-label{padding:0 1rem;border:1px solid #cacaca;background:#e6e6e6;color:#0a0a0a;text-align:center;white-space:nowrap;width:1%;height:100%}.input-group-label:first-child{border-right:0}.input-group-label:last-child{border-left:0}.input-group-field{border-radius:0;height:2.5rem}.input-group-button{padding-top:0;padding-bottom:0;text-align:center;width:1%;height:100%}.input-group-button a,.input-group-button button,.input-group-button input,.input-group-button label{height:2.5rem;padding-top:0;padding-bottom:0;font-size:1rem}.input-group .input-group-button{display:table-cell}fieldset{margin:0;padding:0;border:0}legend{max-width:100%;margin-bottom:.5rem}.fieldset{margin:1.125rem 0;padding:1.25rem;border:1px solid #cacaca}.fieldset legend{margin:0;margin-left:-.1875rem;padding:0 .1875rem;background:#fefefe}select{height:2.4375rem;margin:0 0 1rem;padding:.5rem;-webkit-appearance:none;-moz-appearance:none;appearance:none;border:1px solid #cacaca;border-radius:0;background-color:#fefefe;font-family:inherit;font-size:1rem;line-height:normal;color:#0a0a0a;background-image:url(&quot;data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; version=&#39;1.1&#39; width=&#39;32&#39; height=&#39;24&#39; viewBox=&#39;0 0 32 24&#39;&gt;&lt;polygon points=&#39;0,0 32,0 16,24&#39; style=&#39;fill: rgb%28138, 138, 138%29&#39;&gt;&lt;/polygon&gt;&lt;/svg&gt;&quot;);background-origin:content-box;background-position:right -1rem center;background-repeat:no-repeat;background-size:9px 6px;padding-right:1.5rem;transition:box-shadow .5s,border-color .25s ease-in-out}@media screen and (min-width:0\0){select{background-image:url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAIpJREFUeNrEkckNgDAMBBfRkEt0ObRBBdsGXUDgmQfK4XhH2m8czQAAy27R3tsw4Qfe2x8uOO6oYLb6GlOor3GF+swURAOmUJ+RwtEJs9WvTGEYxBXqI1MQAZhCfUQKRzDMVj+TwrAIV6jvSUEkYAr1LSkcyTBb/V+KYfX7xAeusq3sLDtGH3kEGACPWIflNZfhRQAAAABJRU5ErkJggg==&quot;)}}select:focus{outline:none;border:1px solid #8a8a8a;background-color:#fefefe;box-shadow:0 0 5px #cacaca;transition:box-shadow .5s,border-color .25s ease-in-out}select:disabled{background-color:#e6e6e6;cursor:not-allowed}select::-ms-expand{display:none}select[multiple]{height:auto;background-image:none}.is-invalid-input:not(:focus){border-color:#cc4b37;background-color:#f9ecea}.is-invalid-input:not(:focus)::-webkit-input-placeholder{color:#cc4b37}.is-invalid-input:not(:focus)::-moz-placeholder{color:#cc4b37}.is-invalid-input:not(:focus):-ms-input-placeholder{color:#cc4b37}.form-error,.is-invalid-input:not(:focus)::placeholder,.is-invalid-label{color:#cc4b37}.form-error{display:none;margin-top:-.5rem;margin-bottom:1rem;font-size:.75rem;font-weight:700}.form-error.is-visible{display:block}.accordion{margin-left:0;background:#fefefe;list-style-type:none}.accordion-item:first-child&gt;:first-child,.accordion-item:last-child&gt;:last-child{border-radius:0 0 0 0}.accordion-title{position:relative;display:block;padding:1.25rem 1rem;border:1px solid #e6e6e6;border-bottom:0;font-size:.75rem;line-height:1;color:#1779ba}:last-child:not(.is-active)&gt;.accordion-title{border-bottom:1px solid #e6e6e6;border-radius:0 0 0 0}.accordion-title:focus,.accordion-title:hover{background-color:#e6e6e6}.accordion-title:before{position:absolute;top:50%;right:1rem;margin-top:-.5rem;content:&quot;+&quot;}.is-active&gt;.accordion-title:before{content:&quot;–&quot;}.accordion-content{display:none;padding:1rem;border:1px solid #e6e6e6;border-bottom:0;background-color:#fefefe;color:#0a0a0a}:last-child&gt;.accordion-content:last-child{border-bottom:1px solid #e6e6e6}.is-accordion-submenu-parent&gt;a{position:relative}.is-accordion-submenu-parent&gt;a:after{display:block;width:0;height:0;border:6px inset;content:&quot;&quot;;border-bottom-width:0;border-top-style:solid;border-color:#1779ba transparent transparent;position:absolute;top:50%;margin-top:-3px;right:1rem}.is-accordion-submenu-parent[aria-expanded=true]&gt;a:after{transform:rotate(180deg);transform-origin:50% 50%}.badge{display:inline-block;min-width:2.1em;padding:.3em;border-radius:50%;font-size:.6rem;text-align:center}.badge,.badge.primary{background:#1779ba;color:#fefefe}.badge.secondary{background:#767676;color:#fefefe}.badge.success{background:#3adb76;color:#0a0a0a}.badge.warning{background:#ffae00;color:#0a0a0a}.badge.alert{background:#cc4b37;color:#fefefe}.breadcrumbs{margin:0 0 1rem;list-style:none}.breadcrumbs:after,.breadcrumbs:before{display:table;content:&quot; &quot;}.breadcrumbs:after{clear:both}.breadcrumbs li{float:left;font-size:.6875rem;color:#0a0a0a;cursor:default;text-transform:uppercase}.breadcrumbs li:not(:last-child):after{position:relative;top:1px;margin:0 .75rem;opacity:1;content:&quot;/&quot;;color:#cacaca}.breadcrumbs a{color:#1779ba}.breadcrumbs a:hover{text-decoration:underline}.breadcrumbs .disabled{color:#cacaca;cursor:not-allowed}.button-group{margin-bottom:1rem;font-size:0}.button-group:after,.button-group:before{display:table;content:&quot; &quot;}.button-group:after{clear:both}.button-group .button{margin:0;margin-right:1px;margin-bottom:1px;font-size:.9rem}.button-group .button:last-child{margin-right:0}.button-group.tiny .button{font-size:.6rem}.button-group.small .button{font-size:.75rem}.button-group.large .button{font-size:1.25rem}.button-group.expanded{margin-right:-1px}.button-group.expanded:after,.button-group.expanded:before{display:none}.button-group.expanded .button:first-child:nth-last-child(2),.button-group.expanded .button:first-child:nth-last-child(2):first-child:nth-last-child(2)~.button{display:inline-block;width:calc(50% - 1px);margin-right:1px}.button-group.expanded .button:first-child:nth-last-child(2):first-child:nth-last-child(2)~.button:last-child,.button-group.expanded .button:first-child:nth-last-child(2):last-child{margin-right:-6px}.button-group.expanded .button:first-child:nth-last-child(3),.button-group.expanded .button:first-child:nth-last-child(3):first-child:nth-last-child(3)~.button{display:inline-block;width:calc(33.33333% - 1px);margin-right:1px}.button-group.expanded .button:first-child:nth-last-child(3):first-child:nth-last-child(3)~.button:last-child,.button-group.expanded .button:first-child:nth-last-child(3):last-child{margin-right:-6px}.button-group.expanded .button:first-child:nth-last-child(4),.button-group.expanded .button:first-child:nth-last-child(4):first-child:nth-last-child(4)~.button{display:inline-block;width:calc(25% - 1px);margin-right:1px}.button-group.expanded .button:first-child:nth-last-child(4):first-child:nth-last-child(4)~.button:last-child,.button-group.expanded .button:first-child:nth-last-child(4):last-child{margin-right:-6px}.button-group.expanded .button:first-child:nth-last-child(5),.button-group.expanded .button:first-child:nth-last-child(5):first-child:nth-last-child(5)~.button{display:inline-block;width:calc(20% - 1px);margin-right:1px}.button-group.expanded .button:first-child:nth-last-child(5):first-child:nth-last-child(5)~.button:last-child,.button-group.expanded .button:first-child:nth-last-child(5):last-child{margin-right:-6px}.button-group.expanded .button:first-child:nth-last-child(6),.button-group.expanded .button:first-child:nth-last-child(6):first-child:nth-last-child(6)~.button{display:inline-block;width:calc(16.66667% - 1px);margin-right:1px}.button-group.expanded .button:first-child:nth-last-child(6):first-child:nth-last-child(6)~.button:last-child,.button-group.expanded .button:first-child:nth-last-child(6):last-child{margin-right:-6px}.button-group.primary .button{background-color:#1779ba;color:#fefefe}.button-group.primary .button:focus,.button-group.primary .button:hover{background-color:#126195;color:#fefefe}.button-group.secondary .button{background-color:#767676;color:#fefefe}.button-group.secondary .button:focus,.button-group.secondary .button:hover{background-color:#5e5e5e;color:#fefefe}.button-group.success .button{background-color:#3adb76;color:#0a0a0a}.button-group.success .button:focus,.button-group.success .button:hover{background-color:#22bb5b;color:#0a0a0a}.button-group.warning .button{background-color:#ffae00;color:#0a0a0a}.button-group.warning .button:focus,.button-group.warning .button:hover{background-color:#cc8b00;color:#0a0a0a}.button-group.alert .button{background-color:#cc4b37;color:#fefefe}.button-group.alert .button:focus,.button-group.alert .button:hover{background-color:#a53b2a;color:#fefefe}.button-group.stacked-for-medium .button,.button-group.stacked-for-small .button,.button-group.stacked .button{width:100%}.button-group.stacked-for-medium .button:last-child,.button-group.stacked-for-small .button:last-child,.button-group.stacked .button:last-child{margin-bottom:0}@media print,screen and (min-width:40em){.button-group.stacked-for-small .button{width:auto;margin-bottom:0}}@media print,screen and (min-width:64em){.button-group.stacked-for-medium .button{width:auto;margin-bottom:0}}@media screen and (max-width:39.9375em){.button-group.stacked-for-small.expanded{display:block}.button-group.stacked-for-small.expanded .button{display:block;margin-right:0}}.card{margin-bottom:1rem;border:1px solid #e6e6e6;border-radius:0;background:#fefefe;box-shadow:none;overflow:hidden;color:#0a0a0a}.card&gt;:last-child{margin-bottom:0}.card-divider{padding:1rem;background:#e6e6e6}.card-divider&gt;:last-child{margin-bottom:0}.card-section{padding:1rem}.card-section&gt;:last-child{margin-bottom:0}.callout{position:relative;margin:0 0 1rem;padding:1rem;border:1px solid hsla(0,0%,4%,.25);border-radius:0;background-color:#fff;color:#0a0a0a}.callout&gt;:first-child{margin-top:0}.callout&gt;:last-child{margin-bottom:0}.callout.primary{background-color:#d7ecfa;color:#0a0a0a}.callout.secondary{background-color:#eaeaea;color:#0a0a0a}.callout.success{background-color:#e1faea;color:#0a0a0a}.callout.warning{background-color:#fff3d9;color:#0a0a0a}.callout.alert{background-color:#f7e4e1;color:#0a0a0a}.callout.small{padding:.5rem}.callout.large{padding:3rem}.close-button{position:absolute;color:#8a8a8a;cursor:pointer}[data-whatinput=mouse] .close-button{outline:0}.close-button:focus,.close-button:hover{color:#0a0a0a}.close-button.small{right:.66rem;top:.33em;font-size:1.5em;line-height:1}.close-button,.close-button.medium{right:1rem;top:.5rem;font-size:2em;line-height:1}.menu{margin:0;list-style-type:none}.menu&gt;li{display:table-cell;vertical-align:middle}[data-whatinput=mouse] .menu&gt;li{outline:0}.menu&gt;li&gt;a{display:block;padding:.7rem 1rem;line-height:1}.menu a,.menu button,.menu input,.menu select{margin-bottom:0}.menu&gt;li&gt;a i,.menu&gt;li&gt;a i+span,.menu&gt;li&gt;a img,.menu&gt;li&gt;a img+span,.menu&gt;li&gt;a svg,.menu&gt;li&gt;a svg+span{vertical-align:middle}.menu&gt;li&gt;a i,.menu&gt;li&gt;a img,.menu&gt;li&gt;a svg{margin-right:.25rem;display:inline-block}.menu.horizontal&gt;li,.menu&gt;li{display:table-cell}.menu.expanded{display:table;width:100%;table-layout:fixed}.menu.expanded&gt;li:first-child:last-child{width:100%}.menu.vertical&gt;li{display:block}@media print,screen and (min-width:40em){.menu.medium-horizontal&gt;li{display:table-cell}.menu.medium-expanded{display:table;width:100%;table-layout:fixed}.menu.medium-expanded&gt;li:first-child:last-child{width:100%}.menu.medium-vertical&gt;li{display:block}}@media print,screen and (min-width:64em){.menu.large-horizontal&gt;li{display:table-cell}.menu.large-expanded{display:table;width:100%;table-layout:fixed}.menu.large-expanded&gt;li:first-child:last-child{width:100%}.menu.large-vertical&gt;li{display:block}}.menu.simple li{display:inline-block;margin-right:1rem;line-height:1}.menu.simple a{padding:0}.menu.align-right:after,.menu.align-right:before{display:table;content:&quot; &quot;}.menu.align-right:after{clear:both}.menu.align-right&gt;li{float:right}.menu.icon-top&gt;li&gt;a{text-align:center}.menu.icon-top&gt;li&gt;a i,.menu.icon-top&gt;li&gt;a img,.menu.icon-top&gt;li&gt;a svg{display:block;margin:0 auto .25rem}.menu.icon-top.vertical a&gt;span{margin:auto}.menu.nested{margin-left:1rem}.menu .active&gt;a{background:#1779ba;color:#fefefe}.menu.menu-bordered li{border:1px solid #e6e6e6}.menu.menu-bordered li:not(:first-child){border-top:0}.menu.menu-hover li:hover{background-color:#e6e6e6}.menu-text{padding-top:0;padding-bottom:0;padding:.7rem 1rem;font-weight:700;line-height:1;color:inherit}.menu-centered{text-align:center}.menu-centered&gt;.menu{display:inline-block}.no-js [data-responsive-menu] ul{display:none}.menu-icon{position:relative;display:inline-block;vertical-align:middle;width:20px;height:16px;cursor:pointer}.menu-icon:after{position:absolute;top:0;left:0;display:block;width:100%;height:2px;background:#fefefe;box-shadow:0 7px 0 #fefefe,0 14px 0 #fefefe;content:&quot;&quot;}.menu-icon:hover:after{background:#cacaca;box-shadow:0 7px 0 #cacaca,0 14px 0 #cacaca}.menu-icon.dark{position:relative;display:inline-block;vertical-align:middle;width:20px;height:16px;cursor:pointer}.menu-icon.dark:after{position:absolute;top:0;left:0;display:block;width:100%;height:2px;background:#0a0a0a;box-shadow:0 7px 0 #0a0a0a,0 14px 0 #0a0a0a;content:&quot;&quot;}.menu-icon.dark:hover:after{background:#8a8a8a;box-shadow:0 7px 0 #8a8a8a,0 14px 0 #8a8a8a}.is-drilldown{position:relative;overflow:hidden}.is-drilldown li{display:block}.is-drilldown.animate-height{transition:height .5s}.is-drilldown-submenu{position:absolute;top:0;left:100%;z-index:-1;width:100%;background:#fefefe;transition:transform .15s linear}.is-drilldown-submenu.is-active{z-index:1;display:block;transform:translateX(-100%)}.is-drilldown-submenu.is-closing{transform:translateX(100%)}.drilldown-submenu-cover-previous{min-height:100%}.is-drilldown-submenu-parent&gt;a{position:relative}.is-drilldown-submenu-parent&gt;a:after{display:block;width:0;height:0;border:6px inset;content:&quot;&quot;;border-right-width:0;border-left-style:solid;border-color:transparent transparent transparent #1779ba;position:absolute;top:50%;margin-top:-6px;right:1rem}.js-drilldown-back&gt;a:before{display:block;width:0;height:0;border:6px inset;content:&quot;&quot;;border-right-style:solid;border-color:transparent #1779ba transparent transparent;display:inline-block;vertical-align:middle;margin-right:.75rem;border-left-width:0}.dropdown-pane{position:absolute;z-index:10;display:block;width:300px;padding:1rem;visibility:hidden;border:1px solid #cacaca;border-radius:0;background-color:#fefefe;font-size:1rem}.dropdown-pane.is-open{visibility:visible}.dropdown-pane.tiny{width:100px}.dropdown-pane.small{width:200px}.dropdown-pane.large{width:400px}.dropdown.menu&gt;li.opens-left&gt;.is-dropdown-submenu{top:100%;right:0;left:auto}.dropdown.menu&gt;li.opens-right&gt;.is-dropdown-submenu{top:100%;right:auto;left:0}.dropdown.menu&gt;li.is-dropdown-submenu-parent&gt;a{position:relative;padding-right:1.5rem}.dropdown.menu&gt;li.is-dropdown-submenu-parent&gt;a:after{display:block;width:0;height:0;border:6px inset;content:&quot;&quot;;border-bottom-width:0;border-top-style:solid;border-color:#1779ba transparent transparent;right:5px;margin-top:-3px}[data-whatinput=mouse] .dropdown.menu a{outline:0}.no-js .dropdown.menu ul{display:none}.dropdown.menu.vertical&gt;li .is-dropdown-submenu{top:0}.dropdown.menu.vertical&gt;li.opens-left&gt;.is-dropdown-submenu{right:100%;left:auto}.dropdown.menu.vertical&gt;li.opens-right&gt;.is-dropdown-submenu{right:auto;left:100%}.dropdown.menu.vertical&gt;li&gt;a:after{right:14px}.dropdown.menu.vertical&gt;li.opens-left&gt;a:after{display:block;width:0;height:0;border:6px inset;content:&quot;&quot;;border-left-width:0;border-right-style:solid;border-color:transparent #1779ba transparent transparent}.dropdown.menu.vertical&gt;li.opens-right&gt;a:after{display:block;width:0;height:0;border:6px inset;content:&quot;&quot;;border-right-width:0;border-left-style:solid;border-color:transparent transparent transparent #1779ba}@media print,screen and (min-width:40em){.dropdown.menu.medium-horizontal&gt;li.opens-left&gt;.is-dropdown-submenu{top:100%;right:0;left:auto}.dropdown.menu.medium-horizontal&gt;li.opens-right&gt;.is-dropdown-submenu{top:100%;right:auto;left:0}.dropdown.menu.medium-horizontal&gt;li.is-dropdown-submenu-parent&gt;a{position:relative;padding-right:1.5rem}.dropdown.menu.medium-horizontal&gt;li.is-dropdown-submenu-parent&gt;a:after{display:block;width:0;height:0;border:6px inset;content:&quot;&quot;;border-bottom-width:0;border-top-style:solid;border-color:#1779ba transparent transparent;right:5px;margin-top:-3px}.dropdown.menu.medium-vertical&gt;li .is-dropdown-submenu{top:0}.dropdown.menu.medium-vertical&gt;li.opens-left&gt;.is-dropdown-submenu{right:100%;left:auto}.dropdown.menu.medium-vertical&gt;li.opens-right&gt;.is-dropdown-submenu{right:auto;left:100%}.dropdown.menu.medium-vertical&gt;li&gt;a:after{right:14px}.dropdown.menu.medium-vertical&gt;li.opens-left&gt;a:after{display:block;width:0;height:0;border:6px inset;content:&quot;&quot;;border-left-width:0;border-right-style:solid;border-color:transparent #1779ba transparent transparent}.dropdown.menu.medium-vertical&gt;li.opens-right&gt;a:after{display:block;width:0;height:0;border:6px inset;content:&quot;&quot;;border-right-width:0;border-left-style:solid;border-color:transparent transparent transparent #1779ba}}@media print,screen and (min-width:64em){.dropdown.menu.large-horizontal&gt;li.opens-left&gt;.is-dropdown-submenu{top:100%;right:0;left:auto}.dropdown.menu.large-horizontal&gt;li.opens-right&gt;.is-dropdown-submenu{top:100%;right:auto;left:0}.dropdown.menu.large-horizontal&gt;li.is-dropdown-submenu-parent&gt;a{position:relative;padding-right:1.5rem}.dropdown.menu.large-horizontal&gt;li.is-dropdown-submenu-parent&gt;a:after{display:block;width:0;height:0;border:6px inset;content:&quot;&quot;;border-bottom-width:0;border-top-style:solid;border-color:#1779ba transparent transparent;right:5px;margin-top:-3px}.dropdown.menu.large-vertical&gt;li .is-dropdown-submenu{top:0}.dropdown.menu.large-vertical&gt;li.opens-left&gt;.is-dropdown-submenu{right:100%;left:auto}.dropdown.menu.large-vertical&gt;li.opens-right&gt;.is-dropdown-submenu{right:auto;left:100%}.dropdown.menu.large-vertical&gt;li&gt;a:after{right:14px}.dropdown.menu.large-vertical&gt;li.opens-left&gt;a:after{display:block;width:0;height:0;border:6px inset;content:&quot;&quot;;border-left-width:0;border-right-style:solid;border-color:transparent #1779ba transparent transparent}.dropdown.menu.large-vertical&gt;li.opens-right&gt;a:after{display:block;width:0;height:0;border:6px inset;content:&quot;&quot;;border-right-width:0;border-left-style:solid;border-color:transparent transparent transparent #1779ba}}.dropdown.menu.align-right .is-dropdown-submenu.first-sub{top:100%;right:0;left:auto}.is-dropdown-menu.vertical{width:100px}.is-dropdown-menu.vertical.align-right{float:right}.is-dropdown-submenu-parent{position:relative}.is-dropdown-submenu-parent a:after{position:absolute;top:50%;right:5px;margin-top:-6px}.is-dropdown-submenu-parent.opens-inner&gt;.is-dropdown-submenu{top:100%;left:auto}.is-dropdown-submenu-parent.opens-left&gt;.is-dropdown-submenu{right:100%;left:auto}.is-dropdown-submenu-parent.opens-right&gt;.is-dropdown-submenu{right:auto;left:100%}.is-dropdown-submenu{position:absolute;top:0;left:100%;z-index:1;display:none;min-width:200px;border:1px solid #cacaca;background:#fefefe}.is-dropdown-submenu .is-dropdown-submenu-parent&gt;a:after{right:14px}.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left&gt;a:after{display:block;width:0;height:0;border:6px inset;content:&quot;&quot;;border-left-width:0;border-right-style:solid;border-color:transparent #1779ba transparent transparent}.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right&gt;a:after{display:block;width:0;height:0;border:6px inset;content:&quot;&quot;;border-right-width:0;border-left-style:solid;border-color:transparent transparent transparent #1779ba}.is-dropdown-submenu .is-dropdown-submenu{margin-top:-1px}.is-dropdown-submenu&gt;li{width:100%}.is-dropdown-submenu.js-dropdown-active{display:block}.flex-video,.responsive-embed{position:relative;height:0;margin-bottom:1rem;padding-bottom:75%;overflow:hidden}.flex-video embed,.flex-video iframe,.flex-video object,.flex-video video,.responsive-embed embed,.responsive-embed iframe,.responsive-embed object,.responsive-embed video{position:absolute;top:0;left:0;width:100%;height:100%}.flex-video.widescreen,.responsive-embed.widescreen{padding-bottom:56.25%}.label{display:inline-block;padding:.33333rem .5rem;border-radius:0;font-size:.8rem;line-height:1;white-space:nowrap;cursor:default}.label,.label.primary{background:#1779ba;color:#fefefe}.label.secondary{background:#767676;color:#fefefe}.label.success{background:#3adb76;color:#0a0a0a}.label.warning{background:#ffae00;color:#0a0a0a}.label.alert{background:#cc4b37;color:#fefefe}.media-object{display:block;margin-bottom:1rem}.media-object img{max-width:none}@media screen and (max-width:39.9375em){.media-object.stack-for-small .media-object-section{padding:0;padding-bottom:1rem;display:block}.media-object.stack-for-small .media-object-section img{width:100%}}.media-object-section{display:table-cell;vertical-align:top}.media-object-section:first-child{padding-right:1rem}.media-object-section:last-child:not(:nth-child(2)){padding-left:1rem}.media-object-section&gt;:last-child{margin-bottom:0}.media-object-section.middle{vertical-align:middle}.media-object-section.bottom{vertical-align:bottom}.is-off-canvas-open{overflow:hidden}.js-off-canvas-overlay{position:absolute;top:0;left:0;width:100%;height:100%;transition:opacity .5s ease,visibility .5s ease;background:hsla(0,0%,100%,.25);opacity:0;visibility:hidden;overflow:hidden}.js-off-canvas-overlay.is-visible{opacity:1;visibility:visible}.js-off-canvas-overlay.is-closable{cursor:pointer}.js-off-canvas-overlay.is-overlay-absolute{position:absolute}.js-off-canvas-overlay.is-overlay-fixed{position:fixed}.off-canvas-wrapper{position:relative;overflow:hidden}.off-canvas{position:fixed;z-index:1;transition:transform .5s ease;-webkit-backface-visibility:hidden;backface-visibility:hidden;background:#e6e6e6}[data-whatinput=mouse] .off-canvas{outline:0}.off-canvas.is-transition-overlap{z-index:10}.off-canvas.is-transition-overlap.is-open{box-shadow:0 0 10px hsla(0,0%,4%,.7)}.off-canvas.is-open{transform:translate(0)}.off-canvas-absolute{position:absolute;z-index:1;transition:transform .5s ease;-webkit-backface-visibility:hidden;backface-visibility:hidden;background:#e6e6e6}[data-whatinput=mouse] .off-canvas-absolute{outline:0}.off-canvas-absolute.is-transition-overlap{z-index:10}.off-canvas-absolute.is-transition-overlap.is-open{box-shadow:0 0 10px hsla(0,0%,4%,.7)}.off-canvas-absolute.is-open{transform:translate(0)}.position-left{top:0;left:0;width:250px;height:100%;transform:translateX(-250px);overflow-y:auto}.position-left.is-open~.off-canvas-content{transform:translateX(250px)}.position-left.is-transition-push:after{position:absolute;top:0;right:0;height:100%;width:1px;box-shadow:0 0 10px hsla(0,0%,4%,.7);content:&quot; &quot;}.position-left.is-transition-overlap.is-open~.off-canvas-content{transform:none}.position-right{top:0;right:0;width:250px;height:100%;transform:translateX(250px);overflow-y:auto}.position-right.is-open~.off-canvas-content{transform:translateX(-250px)}.position-right.is-transition-push:after{position:absolute;top:0;left:0;height:100%;width:1px;box-shadow:0 0 10px hsla(0,0%,4%,.7);content:&quot; &quot;}.position-right.is-transition-overlap.is-open~.off-canvas-content{transform:none}.position-top{top:0;left:0;width:100%;height:250px;transform:translateY(-250px);overflow-x:auto}.position-top.is-open~.off-canvas-content{transform:translateY(250px)}.position-top.is-transition-push:after{position:absolute;bottom:0;left:0;height:1px;width:100%;box-shadow:0 0 10px hsla(0,0%,4%,.7);content:&quot; &quot;}.position-top.is-transition-overlap.is-open~.off-canvas-content{transform:none}.position-bottom{bottom:0;left:0;width:100%;height:250px;transform:translateY(250px);overflow-x:auto}.position-bottom.is-open~.off-canvas-content{transform:translateY(-250px)}.position-bottom.is-transition-push:after{position:absolute;top:0;left:0;height:1px;width:100%;box-shadow:0 0 10px hsla(0,0%,4%,.7);content:&quot; &quot;}.position-bottom.is-transition-overlap.is-open~.off-canvas-content{transform:none}.off-canvas-content{transition:transform .5s ease;-webkit-backface-visibility:hidden;backface-visibility:hidden}@media print,screen and (min-width:40em){.position-left.reveal-for-medium{transform:none;z-index:1}.position-left.reveal-for-medium~.off-canvas-content{margin-left:250px}.position-right.reveal-for-medium{transform:none;z-index:1}.position-right.reveal-for-medium~.off-canvas-content{margin-right:250px}.position-top.reveal-for-medium{transform:none;z-index:1}.position-top.reveal-for-medium~.off-canvas-content{margin-top:250px}.position-bottom.reveal-for-medium{transform:none;z-index:1}.position-bottom.reveal-for-medium~.off-canvas-content{margin-bottom:250px}}@media print,screen and (min-width:64em){.position-left.reveal-for-large{transform:none;z-index:1}.position-left.reveal-for-large~.off-canvas-content{margin-left:250px}.position-right.reveal-for-large{transform:none;z-index:1}.position-right.reveal-for-large~.off-canvas-content{margin-right:250px}.position-top.reveal-for-large{transform:none;z-index:1}.position-top.reveal-for-large~.off-canvas-content{margin-top:250px}.position-bottom.reveal-for-large{transform:none;z-index:1}.position-bottom.reveal-for-large~.off-canvas-content{margin-bottom:250px}}.orbit,.orbit-container{position:relative}.orbit-container{height:0;margin:0;list-style:none;overflow:hidden}.orbit-slide{width:100%}.orbit-slide.no-motionui.is-active{top:0;left:0}.orbit-figure{margin:0}.orbit-image{width:100%;max-width:100%;margin:0}.orbit-caption{bottom:0;width:100%;margin-bottom:0;background-color:hsla(0,0%,4%,.5)}.orbit-caption,.orbit-next,.orbit-previous{position:absolute;padding:1rem;color:#fefefe}.orbit-next,.orbit-previous{top:50%;transform:translateY(-50%);z-index:10}[data-whatinput=mouse] .orbit-next,[data-whatinput=mouse] .orbit-previous{outline:0}.orbit-next:active,.orbit-next:focus,.orbit-next:hover,.orbit-previous:active,.orbit-previous:focus,.orbit-previous:hover{background-color:hsla(0,0%,4%,.5)}.orbit-previous{left:0}.orbit-next{left:auto;right:0}.orbit-bullets{position:relative;margin-top:.8rem;margin-bottom:.8rem;text-align:center}[data-whatinput=mouse] .orbit-bullets{outline:0}.orbit-bullets button{width:1.2rem;height:1.2rem;margin:.1rem;border-radius:50%;background-color:#cacaca}.orbit-bullets button.is-active,.orbit-bullets button:hover{background-color:#8a8a8a}.pagination{margin-left:0;margin-bottom:1rem}.pagination:after,.pagination:before{display:table;content:&quot; &quot;}.pagination:after{clear:both}.pagination li{margin-right:.0625rem;border-radius:0;font-size:.875rem;display:none}.pagination li:first-child,.pagination li:last-child{display:inline-block}@media print,screen and (min-width:40em){.pagination li{display:inline-block}}.pagination a,.pagination button{display:block;padding:.1875rem .625rem;border-radius:0;color:#0a0a0a}.pagination a:hover,.pagination button:hover{background:#e6e6e6}.pagination .current{padding:.1875rem .625rem;background:#1779ba;color:#fefefe;cursor:default}.pagination .disabled{padding:.1875rem .625rem;color:#cacaca;cursor:not-allowed}.pagination .disabled:hover{background:transparent}.pagination .ellipsis:after{padding:.1875rem .625rem;content:&quot;\2026&quot;;color:#0a0a0a}.pagination-previous.disabled:before,.pagination-previous a:before{display:inline-block;margin-right:.5rem;content:&quot;\00ab&quot;}.pagination-next.disabled:after,.pagination-next a:after{display:inline-block;margin-left:.5rem;content:&quot;\00bb&quot;}.progress{height:1rem;margin-bottom:1rem;border-radius:0;background-color:#cacaca}.progress.primary .progress-meter{background-color:#1779ba}.progress.secondary .progress-meter{background-color:#767676}.progress.success .progress-meter{background-color:#3adb76}.progress.warning .progress-meter{background-color:#ffae00}.progress.alert .progress-meter{background-color:#cc4b37}.progress-meter{position:relative;display:block;width:0;height:100%;background-color:#1779ba}.progress-meter-text{top:50%;left:50%;transform:translate(-50%,-50%);position:absolute;margin:0;font-size:.75rem;font-weight:700;color:#fefefe;white-space:nowrap}body.is-reveal-open{overflow:hidden}html.is-reveal-open,html.is-reveal-open body{min-height:100%;overflow:hidden;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.reveal-overlay{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1005;display:none;background-color:hsla(0,0%,4%,.45);overflow-y:scroll}.reveal{z-index:1006;-webkit-backface-visibility:hidden;backface-visibility:hidden;display:none;padding:1rem;border:1px solid #cacaca;border-radius:0;background-color:#fefefe;position:relative;top:100px;margin-right:auto;margin-left:auto;overflow-y:auto}[data-whatinput=mouse] .reveal{outline:0}@media print,screen and (min-width:40em){.reveal{min-height:0}}.reveal .column,.reveal .columns{min-width:0}.reveal&gt;:last-child{margin-bottom:0}@media print,screen and (min-width:40em){.reveal{width:600px;max-width:75rem}}@media print,screen and (min-width:40em){.reveal .reveal{right:auto;left:auto;margin:0 auto}}.reveal.collapse{padding:0}@media print,screen and (min-width:40em){.reveal.tiny{width:30%;max-width:75rem}}@media print,screen and (min-width:40em){.reveal.small{width:50%;max-width:75rem}}@media print,screen and (min-width:40em){.reveal.large{width:90%;max-width:75rem}}.reveal.full{top:0;left:0;width:100%;max-width:none;height:100%;height:100vh;min-height:100vh;margin-left:0;border:0;border-radius:0}@media screen and (max-width:39.9375em){.reveal{top:0;left:0;width:100%;max-width:none;height:100%;height:100vh;min-height:100vh;margin-left:0;border:0;border-radius:0}}.reveal.without-overlay{position:fixed}.slider{position:relative;height:.5rem;margin-top:1.25rem;margin-bottom:2.25rem;background-color:#e6e6e6;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-ms-touch-action:none;touch-action:none}.slider-fill{position:absolute;top:0;left:0;display:inline-block;max-width:100%;height:.5rem;background-color:#cacaca;transition:all .2s ease-in-out}.slider-fill.is-dragging{transition:all 0s linear}.slider-handle{top:50%;transform:translateY(-50%);position:absolute;left:0;z-index:1;display:inline-block;width:1.4rem;height:1.4rem;border-radius:0;background-color:#1779ba;transition:all .2s ease-in-out;-ms-touch-action:manipulation;touch-action:manipulation}[data-whatinput=mouse] .slider-handle{outline:0}.slider-handle:hover{background-color:#14679e}.slider-handle.is-dragging{transition:all 0s linear}.slider.disabled,.slider[disabled]{opacity:.25;cursor:not-allowed}.slider.vertical{display:inline-block;width:.5rem;height:12.5rem;margin:0 1.25rem;transform:scaleY(-1)}.slider.vertical .slider-fill{top:0;width:.5rem;max-height:100%}.slider.vertical .slider-handle{position:absolute;top:0;left:50%;width:1.4rem;height:1.4rem;transform:translateX(-50%)}.sticky,.sticky-container{position:relative}.sticky{z-index:0;transform:translateZ(0)}.sticky.is-stuck{position:fixed;z-index:5}.sticky.is-stuck.is-at-top{top:0}.sticky.is-stuck.is-at-bottom{bottom:0}.sticky.is-anchored{position:relative;right:auto;left:auto}.sticky.is-anchored.is-at-bottom{bottom:0}.switch{height:2rem;position:relative;margin-bottom:1rem;outline:0;font-size:.875rem;font-weight:700;color:#fefefe;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.switch-input{position:absolute;margin-bottom:0;opacity:0}.switch-paddle{position:relative;display:block;width:4rem;height:2rem;border-radius:0;background:#cacaca;transition:all .25s ease-out;font-weight:inherit;color:inherit;cursor:pointer}input+.switch-paddle{margin:0}.switch-paddle:after{position:absolute;top:.25rem;left:.25rem;display:block;width:1.5rem;height:1.5rem;transform:translateZ(0);border-radius:0;background:#fefefe;transition:all .25s ease-out;content:&quot;&quot;}input:checked~.switch-paddle{background:#1779ba}input:checked~.switch-paddle:after{left:2.25rem}[data-whatinput=mouse] input:focus~.switch-paddle{outline:0}.switch-active,.switch-inactive{position:absolute;top:50%;transform:translateY(-50%)}.switch-active{left:8%;display:none}input:checked+label&gt;.switch-active{display:block}.switch-inactive{right:15%}input:checked+label&gt;.switch-inactive{display:none}.switch.tiny{height:1.5rem}.switch.tiny .switch-paddle{width:3rem;height:1.5rem;font-size:.625rem}.switch.tiny .switch-paddle:after{top:.25rem;left:.25rem;width:1rem;height:1rem}.switch.tiny input:checked~.switch-paddle:after{left:1.75rem}.switch.small{height:1.75rem}.switch.small .switch-paddle{width:3.5rem;height:1.75rem;font-size:.75rem}.switch.small .switch-paddle:after{top:.25rem;left:.25rem;width:1.25rem;height:1.25rem}.switch.small input:checked~.switch-paddle:after{left:2rem}.switch.large{height:2.5rem}.switch.large .switch-paddle{width:5rem;height:2.5rem;font-size:1rem}.switch.large .switch-paddle:after{top:.25rem;left:.25rem;width:2rem;height:2rem}.switch.large input:checked~.switch-paddle:after{left:2.75rem}table{width:100%;margin-bottom:1rem;border-radius:0}table tbody,table tfoot,table thead{border:1px solid #f1f1f1;background-color:#fefefe}table caption{padding:.5rem .625rem .625rem;font-weight:700}table thead{background:#f8f8f8;color:#0a0a0a}table tfoot{background:#f1f1f1;color:#0a0a0a}table tfoot tr,table thead tr{background:transparent}table tfoot td,table tfoot th,table thead td,table thead th{padding:.5rem .625rem .625rem;font-weight:700;text-align:left}table tbody td,table tbody th{padding:.5rem .625rem .625rem}table tbody tr:nth-child(even){border-bottom:0;background-color:#f1f1f1}table.unstriped tbody{background-color:#fefefe}table.unstriped tbody tr{border-bottom:0;border-bottom:1px solid #f1f1f1;background-color:#fefefe}@media screen and (max-width:63.9375em){table.stack tfoot,table.stack thead{display:none}table.stack td,table.stack th,table.stack tr{display:block}table.stack td{border-top:0}}table.scroll{display:block;width:100%;overflow-x:auto}table.hover thead tr:hover{background-color:#f3f3f3}table.hover tfoot tr:hover{background-color:#ececec}table.hover tbody tr:hover{background-color:#f9f9f9}table.hover:not(.unstriped) tr:nth-of-type(even):hover{background-color:#ececec}.table-scroll{overflow-x:auto}.table-scroll table{width:auto}.tabs{margin:0;border:1px solid #e6e6e6;background:#fefefe;list-style-type:none}.tabs:after,.tabs:before{display:table;content:&quot; &quot;}.tabs:after{clear:both}.tabs.vertical&gt;li{display:block;float:none;width:auto}.tabs.simple&gt;li&gt;a{padding:0}.tabs.simple&gt;li&gt;a:hover{background:transparent}.tabs.primary{background:#1779ba}.tabs.primary&gt;li&gt;a{color:#fefefe}.tabs.primary&gt;li&gt;a:focus,.tabs.primary&gt;li&gt;a:hover{background:#1673b1}.tabs-title{float:left}.tabs-title&gt;a{display:block;padding:1.25rem 1.5rem;font-size:.75rem;line-height:1;color:#1779ba}.tabs-title&gt;a:hover{background:#fefefe;color:#1468a0}.tabs-title&gt;a:focus,.tabs-title&gt;a[aria-selected=true]{background:#e6e6e6;color:#1779ba}.tabs-content{border:1px solid #e6e6e6;border-top:0;background:#fefefe;color:#0a0a0a;transition:all .5s ease}.tabs-content.vertical{border:1px solid #e6e6e6;border-left:0}.tabs-panel{display:none;padding:1rem}.tabs-panel[aria-hidden=false]{display:block}.thumbnail{display:inline-block;max-width:100%;margin-bottom:1rem;border:4px solid #fefefe;border-radius:0;box-shadow:0 0 0 1px hsla(0,0%,4%,.2);line-height:0}a.thumbnail{transition:box-shadow .2s ease-out}a.thumbnail:focus,a.thumbnail:hover{box-shadow:0 0 6px 1px rgba(23,121,186,.5)}a.thumbnail image{box-shadow:none}.title-bar{padding:.5rem;background:#0a0a0a;color:#fefefe}.title-bar:after,.title-bar:before{display:table;content:&quot; &quot;}.title-bar:after{clear:both}.title-bar .menu-icon{margin-left:.25rem;margin-right:.25rem}.title-bar-left{float:left}.title-bar-right{float:right;text-align:right}.title-bar-title{vertical-align:middle}.has-tip,.title-bar-title{display:inline-block;font-weight:700}.has-tip{position:relative;border-bottom:1px dotted #8a8a8a;cursor:help}.tooltip{position:absolute;top:calc(100% + .6495rem);z-index:1200;max-width:10rem;padding:.75rem;border-radius:0;background-color:#0a0a0a;font-size:80%;color:#fefefe}.tooltip:before{border:.75rem inset;border-top-width:0;border-bottom-style:solid;border-color:transparent transparent #0a0a0a;position:absolute;bottom:100%;left:50%;transform:translateX(-50%)}.tooltip.top:before,.tooltip:before{display:block;width:0;height:0;content:&quot;&quot;}.tooltip.top:before{border:.75rem inset;border-bottom-width:0;border-top-style:solid;border-color:#0a0a0a transparent transparent;top:100%;bottom:auto}.tooltip.left:before{border:.75rem inset;border-right-width:0;border-left-style:solid;border-color:transparent transparent transparent #0a0a0a;left:100%}.tooltip.left:before,.tooltip.right:before{display:block;width:0;height:0;content:&quot;&quot;;top:50%;bottom:auto;transform:translateY(-50%)}.tooltip.right:before{border:.75rem inset;border-left-width:0;border-right-style:solid;border-color:transparent #0a0a0a transparent transparent;right:100%;left:auto}.top-bar{padding:.5rem}.top-bar:after,.top-bar:before{display:table;content:&quot; &quot;}.top-bar:after{clear:both}.top-bar,.top-bar ul{background-color:#e6e6e6}.top-bar input{max-width:200px;margin-right:1rem}.top-bar .input-group-field{width:100%;margin-right:0}.top-bar input.button{width:auto}.top-bar .top-bar-left,.top-bar .top-bar-right{width:100%}@media print,screen and (min-width:40em){.top-bar .top-bar-left,.top-bar .top-bar-right{width:auto}}@media screen and (max-width:63.9375em){.top-bar.stacked-for-medium .top-bar-left,.top-bar.stacked-for-medium .top-bar-right{width:100%}}@media screen and (max-width:74.9375em){.top-bar.stacked-for-large .top-bar-left,.top-bar.stacked-for-large .top-bar-right{width:100%}}.top-bar-title{display:inline-block;float:left;padding:.5rem 1rem .5rem 0}.top-bar-title .menu-icon{bottom:2px}.top-bar-left{float:left}.top-bar-right{float:right}.hide{display:none!important}.invisible{visibility:hidden}@media screen and (max-width:39.9375em){.hide-for-small-only{display:none!important}}@media screen and (max-width:0em),screen and (min-width:40em){.show-for-small-only{display:none!important}}@media print,screen and (min-width:40em){.hide-for-medium{display:none!important}}@media screen and (max-width:39.9375em){.show-for-medium{display:none!important}}@media screen and (min-width:40em) and (max-width:63.9375em){.hide-for-medium-only{display:none!important}}@media screen and (max-width:39.9375em),screen and (min-width:64em){.show-for-medium-only{display:none!important}}@media print,screen and (min-width:64em){.hide-for-large{display:none!important}}@media screen and (max-width:63.9375em){.show-for-large{display:none!important}}@media screen and (min-width:64em) and (max-width:74.9375em){.hide-for-large-only{display:none!important}}@media screen and (max-width:63.9375em),screen and (min-width:75em){.show-for-large-only{display:none!important}}.show-for-sr,.show-on-focus{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}.show-on-focus:active,.show-on-focus:focus{position:static!important;width:auto;height:auto;overflow:visible;clip:auto}.hide-for-portrait,.show-for-landscape{display:block!important}@media screen and (orientation:landscape){.hide-for-portrait,.show-for-landscape{display:block!important}}@media screen and (orientation:portrait){.hide-for-portrait,.show-for-landscape{display:none!important}}.hide-for-landscape,.show-for-portrait{display:none!important}@media screen and (orientation:landscape){.hide-for-landscape,.show-for-portrait{display:none!important}}@media screen and (orientation:portrait){.hide-for-landscape,.show-for-portrait{display:block!important}}.float-left{float:left!important}.float-right{float:right!important}.float-center{display:block;margin-right:auto;margin-left:auto}.clearfix:after,.clearfix:before{display:table;content:&quot; &quot;}.clearfix:after{clear:both}.slide-in-down.mui-enter{transition-duration:.5s;transition-timing-function:linear;transform:translateY(-100%);transition-property:transform,opacity;-webkit-backface-visibility:hidden;backface-visibility:hidden}.slide-in-down.mui-enter.mui-enter-active{transform:translateY(0)}.slide-in-left.mui-enter{transition-duration:.5s;transition-timing-function:linear;transform:translateX(-100%);transition-property:transform,opacity;-webkit-backface-visibility:hidden;backface-visibility:hidden}.slide-in-left.mui-enter.mui-enter-active{transform:translateX(0)}.slide-in-up.mui-enter{transition-duration:.5s;transition-timing-function:linear;transform:translateY(100%);transition-property:transform,opacity;-webkit-backface-visibility:hidden;backface-visibility:hidden}.slide-in-up.mui-enter.mui-enter-active{transform:translateY(0)}.slide-in-right.mui-enter{transition-duration:.5s;transition-timing-function:linear;transform:translateX(100%);transition-property:transform,opacity;-webkit-backface-visibility:hidden;backface-visibility:hidden}.slide-in-right.mui-enter.mui-enter-active{transform:translateX(0)}.slide-out-down.mui-leave{transition-duration:.5s;transition-timing-function:linear;transform:translateY(0);transition-property:transform,opacity;-webkit-backface-visibility:hidden;backface-visibility:hidden}.slide-out-down.mui-leave.mui-leave-active{transform:translateY(100%)}.slide-out-right.mui-leave{transition-duration:.5s;transition-timing-function:linear;transform:translateX(0);transition-property:transform,opacity;-webkit-backface-visibility:hidden;backface-visibility:hidden}.slide-out-right.mui-leave.mui-leave-active{transform:translateX(100%)}.slide-out-up.mui-leave{transition-duration:.5s;transition-timing-function:linear;transform:translateY(0);transition-property:transform,opacity;-webkit-backface-visibility:hidden;backface-visibility:hidden}.slide-out-up.mui-leave.mui-leave-active{transform:translateY(-100%)}.slide-out-left.mui-leave{transition-duration:.5s;transition-timing-function:linear;transform:translateX(0);transition-property:transform,opacity;-webkit-backface-visibility:hidden;backface-visibility:hidden}.slide-out-left.mui-leave.mui-leave-active{transform:translateX(-100%)}.fade-in.mui-enter{transition-duration:.5s;transition-timing-function:linear;opacity:0;transition-property:opacity}.fade-in.mui-enter.mui-enter-active{opacity:1}.fade-out.mui-leave{transition-duration:.5s;transition-timing-function:linear;opacity:1;transition-property:opacity}.fade-out.mui-leave.mui-leave-active{opacity:0}.hinge-in-from-top.mui-enter{transition-duration:.5s;transition-timing-function:linear;transform:perspective(2000px) rotateX(-90deg);transform-origin:top;transition-property:transform,opacity;opacity:0}.hinge-in-from-top.mui-enter.mui-enter-active{transform:perspective(2000px) rotate(0deg);opacity:1}.hinge-in-from-right.mui-enter{transition-duration:.5s;transition-timing-function:linear;transform:perspective(2000px) rotateY(-90deg);transform-origin:right;transition-property:transform,opacity;opacity:0}.hinge-in-from-right.mui-enter.mui-enter-active{transform:perspective(2000px) rotate(0deg);opacity:1}.hinge-in-from-bottom.mui-enter{transition-duration:.5s;transition-timing-function:linear;transform:perspective(2000px) rotateX(90deg);transform-origin:bottom;transition-property:transform,opacity;opacity:0}.hinge-in-from-bottom.mui-enter.mui-enter-active{transform:perspective(2000px) rotate(0deg);opacity:1}.hinge-in-from-left.mui-enter{transition-duration:.5s;transition-timing-function:linear;transform:perspective(2000px) rotateY(90deg);transform-origin:left;transition-property:transform,opacity;opacity:0}.hinge-in-from-left.mui-enter.mui-enter-active{transform:perspective(2000px) rotate(0deg);opacity:1}.hinge-in-from-middle-x.mui-enter{transition-duration:.5s;transition-timing-function:linear;transform:perspective(2000px) rotateX(-90deg);transform-origin:center;transition-property:transform,opacity;opacity:0}.hinge-in-from-middle-x.mui-enter.mui-enter-active{transform:perspective(2000px) rotate(0deg);opacity:1}.hinge-in-from-middle-y.mui-enter{transition-duration:.5s;transition-timing-function:linear;transform:perspective(2000px) rotateY(-90deg);transform-origin:center;transition-property:transform,opacity;opacity:0}.hinge-in-from-middle-y.mui-enter.mui-enter-active,.hinge-out-from-top.mui-leave{transform:perspective(2000px) rotate(0deg);opacity:1}.hinge-out-from-top.mui-leave{transition-duration:.5s;transition-timing-function:linear;transform-origin:top;transition-property:transform,opacity}.hinge-out-from-top.mui-leave.mui-leave-active{transform:perspective(2000px) rotateX(-90deg);opacity:0}.hinge-out-from-right.mui-leave{transition-duration:.5s;transition-timing-function:linear;transform:perspective(2000px) rotate(0deg);transform-origin:right;transition-property:transform,opacity;opacity:1}.hinge-out-from-right.mui-leave.mui-leave-active{transform:perspective(2000px) rotateY(-90deg);opacity:0}.hinge-out-from-bottom.mui-leave{transition-duration:.5s;transition-timing-function:linear;transform:perspective(2000px) rotate(0deg);transform-origin:bottom;transition-property:transform,opacity;opacity:1}.hinge-out-from-bottom.mui-leave.mui-leave-active{transform:perspective(2000px) rotateX(90deg);opacity:0}.hinge-out-from-left.mui-leave{transition-duration:.5s;transition-timing-function:linear;transform:perspective(2000px) rotate(0deg);transform-origin:left;transition-property:transform,opacity;opacity:1}.hinge-out-from-left.mui-leave.mui-leave-active{transform:perspective(2000px) rotateY(90deg);opacity:0}.hinge-out-from-middle-x.mui-leave{transition-duration:.5s;transition-timing-function:linear;transform:perspective(2000px) rotate(0deg);transform-origin:center;transition-property:transform,opacity;opacity:1}.hinge-out-from-middle-x.mui-leave.mui-leave-active{transform:perspective(2000px) rotateX(-90deg);opacity:0}.hinge-out-from-middle-y.mui-leave{transition-duration:.5s;transition-timing-function:linear;transform:perspective(2000px) rotate(0deg);transform-origin:center;transition-property:transform,opacity;opacity:1}.hinge-out-from-middle-y.mui-leave.mui-leave-active{transform:perspective(2000px) rotateY(-90deg);opacity:0}.scale-in-up.mui-enter{transition-duration:.5s;transition-timing-function:linear;transform:scale(.5);transition-property:transform,opacity;opacity:0}.scale-in-up.mui-enter.mui-enter-active{transform:scale(1);opacity:1}.scale-in-down.mui-enter{transition-duration:.5s;transition-timing-function:linear;transform:scale(1.5);transition-property:transform,opacity;opacity:0}.scale-in-down.mui-enter.mui-enter-active,.scale-out-up.mui-leave{transform:scale(1);opacity:1}.scale-out-up.mui-leave{transition-duration:.5s;transition-timing-function:linear;transition-property:transform,opacity}.scale-out-up.mui-leave.mui-leave-active{transform:scale(1.5);opacity:0}.scale-out-down.mui-leave{transition-duration:.5s;transition-timing-function:linear;transform:scale(1);transition-property:transform,opacity;opacity:1}.scale-out-down.mui-leave.mui-leave-active{transform:scale(.5);opacity:0}.spin-in.mui-enter{transition-duration:.5s;transition-timing-function:linear;transform:rotate(-270deg);transition-property:transform,opacity;opacity:0}.spin-in.mui-enter.mui-enter-active,.spin-out.mui-leave{transform:rotate(0);opacity:1}.spin-out.mui-leave{transition-duration:.5s;transition-timing-function:linear;transition-property:transform,opacity}.spin-in-ccw.mui-enter,.spin-out.mui-leave.mui-leave-active{transform:rotate(270deg);opacity:0}.spin-in-ccw.mui-enter{transition-duration:.5s;transition-timing-function:linear;transition-property:transform,opacity}.spin-in-ccw.mui-enter.mui-enter-active,.spin-out-ccw.mui-leave{transform:rotate(0);opacity:1}.spin-out-ccw.mui-leave{transition-duration:.5s;transition-timing-function:linear;transition-property:transform,opacity}.spin-out-ccw.mui-leave.mui-leave-active{transform:rotate(-270deg);opacity:0}.slow{transition-duration:.75s!important}.fast{transition-duration:.25s!important}.linear{transition-timing-function:linear!important}.ease{transition-timing-function:ease!important}.ease-in{transition-timing-function:ease-in!important}.ease-out{transition-timing-function:ease-out!important}.ease-in-out{transition-timing-function:ease-in-out!important}.bounce-in{transition-timing-function:cubic-bezier(.485,.155,.24,1.245)!important}.bounce-out{transition-timing-function:cubic-bezier(.485,.155,.515,.845)!important}.bounce-in-out{transition-timing-function:cubic-bezier(.76,-.245,.24,1.245)!important}.short-delay{transition-delay:.3s!important}.long-delay{transition-delay:.7s!important}.shake{animation-name:a}@keyframes a{0%,10%,20%,30%,40%,50%,60%,70%,80%,90%{transform:translateX(7%)}5%,15%,25%,35%,45%,55%,65%,75%,85%,95%{transform:translateX(-7%)}}.spin-ccw,.spin-cw{animation-name:b}@keyframes b{0%{transform:rotate(0)}to{transform:rotate(1turn)}}.wiggle{animation-name:c}@keyframes c{40%,50%,60%{transform:rotate(7deg)}35%,45%,55%,65%{transform:rotate(-7deg)}0%,30%,70%,to{transform:rotate(0)}}.shake,.spin-ccw,.spin-cw,.wiggle{animation-duration:.5s}.infinite{animation-iteration-count:infinite}.slow{animation-duration:.75s!important}.fast{animation-duration:.25s!important}.linear{animation-timing-function:linear!important}.ease{animation-timing-function:ease!important}.ease-in{animation-timing-function:ease-in!important}.ease-out{animation-timing-function:ease-out!important}.ease-in-out{animation-timing-function:ease-in-out!important}.bounce-in{animation-timing-function:cubic-bezier(.485,.155,.24,1.245)!important}.bounce-out{animation-timing-function:cubic-bezier(.485,.155,.515,.845)!important}.bounce-in-out{animation-timing-function:cubic-bezier(.76,-.245,.24,1.245)!important}.short-delay{animation-delay:.3s!important}.long-delay{animation-delay:.7s!important}</td>
+      </tr>
+</table>
+
+  <div class="BlobToolbar position-absolute js-file-line-actions dropdown js-menu-container js-select-menu d-none" aria-hidden="true">
+    <button class="btn-octicon ml-0 px-2 p-0 bg-white border border-gray-dark rounded-1 js-menu-target" type="button" aria-expanded="false" aria-haspopup="true" aria-label="Inline file action toolbar" aria-controls="inline-file-actions">
+      <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/></svg>
+    </button>
+    <div class="dropdown-menu-content js-menu-content" id="inline-file-actions">
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2">
+        <li><clipboard-copy class="dropdown-item" id="js-copy-lines" style="cursor:pointer;" data-original-text="Copy lines">Copy lines</clipboard-copy></li>
+        <li><clipboard-copy class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;" data-original-text="Copy permalink">Copy permalink</clipboard-copy></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" href="/fat4lix/geekbrains-webinar-vue/blame/c931cf1a31938e598dfd43065dfa23619a14e3b3/foundation.min.css">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" href="/fat4lix/geekbrains-webinar-vue/issues/new">Open new issue</a></li>
+      </ul>
+    </div>
+  </div>
+
+  </div>
+
+  </div>
+
+  <button type="button" data-facebox="#jump-to-line" data-facebox-class="linejump" data-hotkey="l" class="d-none">Jump to Line</button>
+  <div id="jump-to-line" style="display:none">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-jump-to-line-form" action="" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+      <input class="form-control linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+      <button type="submit" class="btn">Go</button>
+</form>  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.62804s from unicorn-5dcc89cc7b-hdlj8">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" integrity="sha512-wIuAKDhvxe9wCaNR1tzCk3rtl+wXEWC28rmRpzmx0h98VEeWC6Y3xCWV1xAW6NP6eQQX+x8ZGhW6Sdut+mLRuw==" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-a48960bafc17c30572990bbab3664e9c.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-HtXMaArrY9G3PeC0Ak9gvytVs8jgGWgF72UwiHRvPUaF/ru8bw6gGq2qxSli8smS4OcZUo+6sXKV9ilIsIW/cw==" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-c3c14c4cae6d3342206a30a4f9851d53.js"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-IqjoqTDA70e08ozD2kubY6md5HqCgEhMiq7hIVZmVoonQOps706MxT/8l1KpiBbTzvI7efSFQmcrbs4pcCjBvg==" type="application/javascript" src="https://assets-cdn.github.com/assets/github-ca2940d74e79b676f5a429bd2a1a59ec.js"></script>
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+
