@@ -10,7 +10,7 @@ public class Article {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long Id;
 
-    @Column(name = "title",nullable = false)
+    @Column(name = "title", nullable = false)
     private String title;
 
     @Column(name = "body")
@@ -55,11 +55,11 @@ public class Article {
     public Article(String title, String body, int y, int m, int d) {
         this.title = title;
         this.body = body;
-        this.publishedDate = new Date(y,m,d);
+        this.publishedDate = new Date(y, m, d);
     }
 
     public Article(String title) {
-        this(title,"");
+        this(title, "");
     }
 
     public String getBody() {

@@ -1,44 +1,38 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <title>SPA блог</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!--<link rel="stylesheet" href="css/normalize.css">-->
     <link rel="stylesheet" href="css/foundation.min.css">
-    <!--<script src="https://unpkg.com/vue"></script>-->
-    <!--<script src="https://unpkg.com/vue"></script>-->
-    <!-- версия для разработки, включает отображение полезных предупреждений в консоли -->
-    <!--<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>-->
-    <!-- production-версия, оптимизированная для размера и скорости-->
-    <!--<script src="https://cdn.jsdelivr.net/npm/vue"></script>-->
 </head>
+
 <body>
 
-<div id="form" class="row">
-
-    <!--<form action="" @submit.prevent="addNewMessage">-->
-     <form action="" @submit.prevent="addServerMessage">
-        <h3>Написать статью</h3>
-        Заголовок публикации<input v-model="article.title" type="text" id="title" placeholder="Заголовок публикации"  required><br>
-        Текст публикации <textarea v-model="article.body" cols="30" rows="10" id="message" type="text" placeholder="Тело публикации"></textarea><br>
-        <button type="submit" class="button">Опубликовать</button>
-    </form>
-
-    <div class="">
-        <ul style="">
-            <article-element class="card-divider"
-                    v-for="item in messageList"
-                    v-bind:element="item"
-                    v-bind:key="item.id">
-            </article-element>
+    <div id="form" class="row">
+        <form action="" @submit.prevent="addServerMessage">
+            <div align="center"><h2> SPA blog</h2></div>
+            Заголовок публикации<input v-model="article.title" type="text" id="title" placeholder="Заголовок публикации" required><br>
+            Текст публикации <textarea v-model="article.body" cols="30" rows="10" id="message" type="text" placeholder="Тело публикации"></textarea><br>
+            <button type="submit" class="button">Опубликовать</button>
+        </form>
+        <ul>
+            <li v-show="errored">
+                <h3>Сервер недоступен</h3>
+            </li>
         </ul>
+        <div>
+            <ul style="">
+                <article-element class="element" v-for="item in messageList" v-bind:element="item" v-bind:key="item.id" class="callout">
+                </article-element>
+            </ul>
+        </div>
     </div>
-</div>
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<!--<script src="js/axios.min.js"></script>-->
-<!--<script src="js/vue.js"></script>-->
-<script src="js/main.js"></script>
+    <script src="js/axios.min.js"></script>
+    <script src="js/vue.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>

@@ -19,16 +19,18 @@ public class Application {
 
     }
 
-
+    /**
+     * Наполнение для БД
+     */
     @Bean
     public CommandLineRunner demo(ArticleRepository repository) {
         return (args) -> {
-            repository.save(new Article("Очень давно Политичесик баталии", "Президент становится императором", 115,04,1));
-            repository.save(new Article("Давно Проигравшие", "Про футбол",116,04,1));
-            repository.save(new Article("Сегодня Игрушки", "Сегодня открылся магазин....", 117,07,12));
-            repository.save(new Article("Давно2", "Про футбол",112,04,1));
-            repository.save(new Article("Очень давно2Игрушки", "Сегодня открылся магазин....", 111,07,12));
-           };
+            repository.save(new Article("Очень давно Политичесие баталии", "Президент становится императором", 115, 04, 1));
+            repository.save(new Article("Давно Проигравшие", "Про футбол", 116, 04, 1));
+            repository.save(new Article("Сегодня Игрушки", "Сегодня открылся магазин....", 117, 07, 12));
+            repository.save(new Article("Давно2", "Про футбол", 112, 04, 1));
+            repository.save(new Article("Очень давно2 Игрушки", "Сегодня открылся магазин....", 111, 07, 12));
+        };
     }
 
 }
